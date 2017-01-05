@@ -71,13 +71,13 @@ Usage
 The GPS program needs to be run (before or after the main tracker - makes no difference):
 
 cd
-cd pygate/gps
+cd pytrack/gps
 sudo ./gps
 
 The tracker program is started with:
 
 cd
-cd pygate/tracker
+cd pytrack/tracker
 python3 test_tracker.py
 
 
