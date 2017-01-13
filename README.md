@@ -11,7 +11,8 @@ sudo apt-get install wiringpi
 
 This part of the software needs to be compiled and linked, with:
 
-cd gps
+cd pytrack/gps
+
 make
 
 
@@ -26,15 +27,23 @@ This part of the software is Python 3.4.  It uses these Python libraries which c
 It also requires PIGPIO and SSDV to be installed:
 
 cd
+
 wget abyz.co.uk/rpi/pigpio/pigpio.zip
+
 unzip pigpio.zip
+
 cd PIGPIO
+
 make
+
 sudo make install
 
 cd
+
 git clone https://github.com/fsphil/ssdv.git
+
 cd ssdv
+
 sudo make install
 
  
