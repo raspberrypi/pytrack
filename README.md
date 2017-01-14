@@ -2,6 +2,7 @@
 
 HAB tracker software for the Pi In The Sky board and LoRa expansion board.
 
+
 GPS
 ===
 
@@ -19,12 +20,16 @@ make
 Tracker
 =======
 
-This part of the software is Python 3.4.  It uses these Python libraries which can be installed with PIP:
+This part of the software is Python 3.4, which needs to be installed on Jessie Lite:
 
-(need to check my notes to see if any need to be installed or if they were already installed)
+sudo apt-get install python3 pythno3-pip
+
+sudo pip3 install pyserial spidev picamera crcmod
+
+sudo apt-get install python3-gpiozero
 
 
-It also requires PIGPIO and SSDV to be installed:
+It also requires the following to be installed:
 
 cd
 
@@ -54,8 +59,11 @@ Raspbian Configuration
 Enable the following with raspi-config:
 
 Enable Camera
+
 Advanced Options --> Enable SPI (if you are going to use the LoRa board)
+
 Advanced Options --> Enable I2C (if you will at some time use the BMP085 or BMP180)
+
 Advanced Options --> Enable One-Wire support
 
 Note that the I2C/SPI/OneWire settings have been moved to "Interfacing Options" in the latest Raspbian update.
@@ -80,13 +88,17 @@ Usage
 The GPS program needs to be run (before or after the main tracker - makes no difference):
 
 cd
+
 cd pytrack/gps
+
 sudo ./gps
 
 The tracker program is started with:
 
 cd
+
 cd pytrack/tracker
+
 python3 test_tracker.py
 
 
