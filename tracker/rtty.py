@@ -31,6 +31,16 @@ class RTTY(Radio):
 			self.ser.bytesize = 8
 		self.ser.port = '/dev/ttyAMA0'
 	
+	# def check_port(self):
+		# try:
+			# self.ser.open()
+			# self.ser.close()
+			# result = True
+		# except:
+			# result = False
+		# return result
+		
+	
 	def set_frequency(self, Frequency):
 		pio = pigpio.pi()
 		
@@ -69,12 +79,15 @@ class RTTY(Radio):
 	def send_packet(self, packet, callback=None):
 		self.CallbackWhenSent = callback
 		self.ntx2.on()
-		self.ser.open()
-		self.sending = True
-		self.ser.write(packet)
-		t = threading.Thread(target=self.send_thread)
-		t.daemon = True
-		t.start()
+		try:
+			self.ser.open()
+			self.sending = True
+			self.ser.write(packet)
+			t = threading.Thread(target=self.send_thread)
+			t.daemon = True
+			t.start()
+		except:
+			raise RuntimeError('Failed to open RTTY serial port\nCheck that port is present and has been enabled')
 
 	def send_text(self, sentence, callback=None):
 		self.send_packet(sentence.encode(), callback)

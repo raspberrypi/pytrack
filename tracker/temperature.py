@@ -1,4 +1,6 @@
 import os
+import time
+import threading
 
 class Temperature(object):
 	"""
@@ -6,12 +8,12 @@ class Temperature(object):
 	"""
 	
 	def __init__(self):
+		self.Temperatures = [0]
 		pass
 	
-	def GetTemperatures(self):
+	def _get_temperatures(self):
 		Folder = "/sys/bus/w1/devices"
 		Folders = os.listdir(Folder)
-		Result = []
 
 		for Item in Folders:
 			if len(Item) > 3:
@@ -20,6 +22,14 @@ class Temperature(object):
 					with open(Filename) as f:
 						content = f.readlines()			
 					# Second line has temperature
-					Result.append(int(content[1].split('=')[1])/1000.0)
+					self.Temperatures[0] = int(content[1].split('=')[1]) / 1000.0
 
-		return Result
+	def __temperature_thread(self):
+		self._get_temperatures()
+		time.sleep(10)
+
+					
+	def run(self):
+		t = threading.Thread(target=self.__temperature_thread)
+		t.daemon = True
+		t.start()
