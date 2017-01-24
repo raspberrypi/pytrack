@@ -36,41 +36,6 @@ class SSDVCamera(object):
 		self.camera = picamera.PiCamera()
 		self.Schedule = []
 
-	def take_photo(self, filename, width, height):
-		self.camera.resolution = (width, height)
-		self.camera.capture(filename)
-
-	def take_photos(self):
-		t = threading.Thread(target=self.__photo_thread)
-		t.daemon = True
-		t.start()
-
-	def clear_schedule(self):
-		self.Schedule = []
-		
-	def add_schedule(self, Channel, Callsign, TargetFolder, Period, Width, Height, VFlip=False, HFlip=False):
-		TargetFolder = os.path.join(TargetFolder, '')	
-
-		if not os.path.exists(TargetFolder):
-			os.makedirs(TargetFolder)
-		
-		self.Schedule.append({'Channel': Channel,
-							  'Callsign': Callsign,
-							  'TargetFolder': TargetFolder,
-							  'Period': Period,
-							  'Width': Width,
-							  'Height': Height,
-							  'VFlip': VFlip,
-							  'HFlip': HFlip,
-							  'LastTime': 0,
-							  'ImageNumber': 0,
-							  'PacketIndex': 0,
-							  'PacketCount': 0,
-							  'SSDVFileName': 'ssdv.bin',
-							  'NextSSDVFileName': '_ext.bin',
-							  'File': None})
-		print("schedule is: ", self.Schedule)
-	
 	def __find_item_for_channel(self, Channel):
 		for item in self.Schedule:
 			if item['Channel'] == Channel:
@@ -87,33 +52,6 @@ class SSDVCamera(object):
 			return ssdv_filename
 			
 		return None
-		
-	def get_next_ssdv_packet(self, Channel):
-		Result = None
-		
-		item = self.__find_item_for_channel(Channel)
-		if item != None:
-			# Open file if we're not reading a file already
-			if item['File'] == None:
-				# Get next file to read, if there is one
-				filename = self.__get_next_ssdv_file(item)
-				if filename != None:
-					item['PacketIndex'] = 0
-					item['PacketCount'] = os.path.getsize(filename) / 256
-					item['File'] = open(filename, mode='rb')
-					
-			# Read from file
-			if item['File'] != None:
-				Result = item['File'].read(256)
-				item['PacketIndex'] += 1
-				if item['PacketIndex'] >= item['PacketCount']:
-					# Close file if we're at the end
-					item['PacketIndex'] = 0
-					item['PacketCount'] = 0
-					item['File'].close()
-					item['File'] = None
-
-		return Result
 		
 	def __photo_thread(self):
 		while True:
@@ -144,5 +82,64 @@ class SSDVCamera(object):
 								MoveFiles(item['TargetFolder'], time.strftime("%Y_%m_%d", time.gmtime()), '.jpg')
 							
 			time.sleep(1)
+
+	def clear_schedule(self):
+		self.Schedule = []
+		
+	def add_schedule(self, Channel, Callsign, TargetFolder, Period, Width, Height, VFlip=False, HFlip=False):
+		TargetFolder = os.path.join(TargetFolder, '')	
+
+		if not os.path.exists(TargetFolder):
+			os.makedirs(TargetFolder)
+		
+		self.Schedule.append({'Channel': Channel,
+							  'Callsign': Callsign,
+							  'TargetFolder': TargetFolder,
+							  'Period': Period,
+							  'Width': Width,
+							  'Height': Height,
+							  'VFlip': VFlip,
+							  'HFlip': HFlip,
+							  'LastTime': 0,
+							  'ImageNumber': 0,
+							  'PacketIndex': 0,
+							  'PacketCount': 0,
+							  'SSDVFileName': 'ssdv.bin',
+							  'NextSSDVFileName': '_ext.bin',
+							  'File': None})
+		print("schedule is: ", self.Schedule)
+
+	def take_photos(self):
+		t = threading.Thread(target=self.__photo_thread)
+		t.daemon = True
+		t.start()
+		
+	def get_next_ssdv_packet(self, Channel):
+		Result = None
+		
+		item = self.__find_item_for_channel(Channel)
+		if item != None:
+			# Open file if we're not reading a file already
+			if item['File'] == None:
+				# Get next file to read, if there is one
+				filename = self.__get_next_ssdv_file(item)
+				if filename != None:
+					item['PacketIndex'] = 0
+					item['PacketCount'] = os.path.getsize(filename) / 256
+					item['File'] = open(filename, mode='rb')
+					
+			# Read from file
+			if item['File'] != None:
+				Result = item['File'].read(256)
+				item['PacketIndex'] += 1
+				if item['PacketIndex'] >= item['PacketCount']:
+					# Close file if we're at the end
+					item['PacketIndex'] = 0
+					item['PacketCount'] = 0
+					item['File'].close()
+					item['File'] = None
+
+		return Result
+		
 
 		

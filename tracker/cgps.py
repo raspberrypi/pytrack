@@ -2,6 +2,9 @@ import math
 import socket
 import json
 import threading
+import psutil
+from os import system
+from time import sleep
 
 class GPS(object):
 	"""
@@ -10,14 +13,17 @@ class GPS(object):
 	"""
 	PortOpen = False
 	
-	def __init__(self):
-		self._WhenLockGained = None
-		self._WhenLockLost = None
-		self.GPSPosition = {'time': '00:00:00', 'lat': 0.0, 'lon': 0.0, 'alt': 0, 'sats': 0, 'fixt': 0}
+	def __init__(self, WhenNewPosition=None, WhenLockChanged=None):
+		self._WhenLockChanged = WhenLockChanged
+		self._WhenNewPosition = WhenNewPosition
+		self._GotLock = False
+		self._GPSPosition = {'time': '00:00:00', 'lat': 0.0, 'lon': 0.0, 'alt': 0, 'sats': 0, 'fix': 0}
 		
-	def open(self):
-		return True
-	
+		# Start thread to talk to GPS program
+		t = threading.Thread(target=self.__gps_thread)
+		t.daemon = True
+		t.start()
+		
 	def __process_gps(self, s):
 		while 1:
 			reply = s.recv(4096)                                     
@@ -27,23 +33,37 @@ class GPS(object):
 					if line:
 						temp = line.decode('utf-8')
 						j = json.loads(temp)
-						self.GPSPosition = j
+						self._GPSPosition = j
+						if self._WhenNewPosition:
+							self._WhenNewPosition(self._GPSPosition)
+						GotLock = self._GPSPosition['fix'] >= 2
+						if GotLock != self._GotLock:
+							self._GotLock = GotLock
+							if self._WhenLockChanged:
+								self._WhenLockChanged(GotLock)
 			else:
-				time.sleep(1)
+				sleep(1)
 			
 		s.close()
+	
+	def _ServerRunning(self):
+		return "gps" in [psutil.Process(i).name() for i in psutil.pids()]
+		
+	def _StartServer(self):
+		system("sudo ../gps/gps > /dev/null &")
+		sleep(1)
 		
 	def __doGPS(self, host, port):
-		try:
+		try:		
+			# Connect socket to GPS server
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
-
-			s.connect((host, port))                               
-			
+			s.connect((host, port))                               		
 			self.__process_gps(s)
-
 			s.close()
 		except:
-			pass
+			# Start GPS server if it's not running
+			if not self._ServerRunning():
+				self._StartServer()
 		
 	def __gps_thread(self):
 		host = '127.0.0.1'
@@ -54,25 +74,5 @@ class GPS(object):
 
 					
 	def Position(self):
-		return self.GPSPosition
+		return self._GPSPosition
 			
-	@property
-	def WhenLockGained(self):
-		return self._WhenLockGained
-
-	@WhenLockGained.setter
-	def WhenLockGained(self, value):
-		self._WhenLockGained = value
-	
-	@property
-	def WhenLockLost(self):
-		return self._WhenLockLost
-
-	@WhenLockLost.setter
-	def WhenLockGained(self, value):
-		self._WhenLockLost = value
-	
-	def run(self):
-		t = threading.Thread(target=self.__gps_thread)
-		t.daemon = True
-		t.start()

@@ -1,13 +1,17 @@
 from cgps import *
 import time
 
+def NewPosition(Position):
+	print("Callback: ", Position)
+
+def LockChanged(GotLock):
+	print("Lock " + ("GAINED" if GotLock else "LOST"))
+
 print("Creating GPS object ...")
-mygps = GPS();
-
-print("run ...")
-mygps.run()
-
+mygps = GPS(WhenNewPosition=NewPosition, WhenLockChanged=LockChanged)
+	
 print("loop ...")
 while 1:
 	time.sleep(1)
-	print (mygps.Position())
+	# print ("Position: ", mygps.Position())
+

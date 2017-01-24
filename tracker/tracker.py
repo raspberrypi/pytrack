@@ -33,59 +33,7 @@ class Tracker(object):
 			
 			self.EnableCamera = config.getboolean('General', 'Camera', fallback=self.EnableCamera)
 	
-	def open(self, RTTYPayloadID='CHANGEME', RTTYFrequency=434.100, RTTYBaudRate=300,
-					LoRaChannel=0, LoRaPayloadID='CHANGEME2', LoRaFrequency=434.200, LoRaMode=1,
-					EnableCamera=True,
-					ConfigFileName=None):
-		# Open connections to GPS, radio etc
-		# Return True if connected OK, False if not
-		
-		self.RTTYPayloadID = RTTYPayloadID
-		self.RTTYFrequency = RTTYFrequency
-		self.RTTYBaudRate = RTTYBaudRate
-		self.LoRaChannel = LoRaChannel
-		self.LoRaPayloadID = LoRaPayloadID
-		self.LoRaFrequency = LoRaFrequency
-		self.LoRaMode = LoRaMode
-		self.EnableCamera = EnableCamera
-		
-		TrackerOpen = False
-		
-		self._load_settings_file(ConfigFileName)
-		
-		LEDs = PITS_LED()
-		LEDs.GPS_NoLock()
-		
-		self.temperature = Temperature()
-		self.temperature.run()
-		
-		if self.EnableCamera:
-			self.camera = SSDVCamera()
-		else:
-			self.camera = None
-		
-		self.gps = GPS()
-		
-		self.rtty = RTTY(self.RTTYFrequency, self.RTTYBaudRate)
-		# if not self.rtty.check_port():
-			# return 
-		
-		self.lora = LoRa(self.LoRaChannel, self.LoRaFrequency, self.LoRaMode)
-		
-		if self.gps.open():
-			TrackerOpen = True
-			
-			## Connect GPS status to LEDs
-			self.gps.WhenLockGained = LEDs.GPS_OK
-			
-			self.gps.run()	
-		else:
-			pass
-			LEDs.fail()
-			
-		return TrackerOpen
-
-	def TransmitIfFree(self, Channel, PayloadID, ChannelName):
+	def _TransmitIfFree(self, Channel, PayloadID, ChannelName):
 		if not Channel.is_sending():
 			# Do we need to send an image packet or sentence ?
 			print("ImagePacketCount = ", Channel.ImagePacketCount)
@@ -126,18 +74,63 @@ class Tracker(object):
 				Channel.send_packet(Packet[1:])
 			
 	
+	def open(self, RTTYPayloadID='CHANGEME', RTTYFrequency=434.100, RTTYBaudRate=300,
+					LoRaChannel=0, LoRaPayloadID='CHANGEME2', LoRaFrequency=434.200, LoRaMode=1,
+					EnableCamera=True,
+					ConfigFileName=None):
+		# Open connections to GPS, radio etc
+		# Return True if connected OK, False if not
+		
+		self.RTTYPayloadID = RTTYPayloadID
+		self.RTTYFrequency = RTTYFrequency
+		self.RTTYBaudRate = RTTYBaudRate
+		self.LoRaPayloadID = LoRaPayloadID
+		self.LoRaChannel = LoRaChannel
+		self.LoRaFrequency = LoRaFrequency
+		self.LoRaMode = LoRaMode
+		self.EnableCamera = EnableCamera
+		
+		self._load_settings_file(ConfigFileName)
+		
+		LEDs = PITS_LED()
+		
+		self.temperature = Temperature()
+		self.temperature.run()
+		
+		if self.EnableCamera:
+			self.camera = SSDVCamera()
+		else:
+			self.camera = None
+		
+		self.gps = GPS(WhenLockChanged=LEDs.GPS_LockStatus)
+		
+		if (self.RTTYFrequency > 0) and (self.RTTYBaudRate):
+			self.rtty = RTTY(self.RTTYFrequency, self.RTTYBaudRate)
+		else:
+			self.rtty = None
+		
+		if (self.LoRaChannel >= 0) and (self.LoRaFrequency > 0):
+			self.lora = LoRa(self.LoRaChannel, self.LoRaFrequency, self.LoRaMode)
+		else:
+			self.lora = None
+			
+		return self.rtty and self.lora
+
 	def run(self):
 		if self.camera:
-			if self.RTTYBaudRate >= 300:
+			if self.rtty and (self.RTTYBaudRate >= 300):
 				print("Enable camera for RTTY")
 				self.camera.add_schedule('RTTY', 'PYSKY', 'images/RTTY', 30, 640, 480)
-			if self.LoRaMode == 1:
+			if self.rtty and (self.LoRaMode == 1):
 				print("Enable camera for LoRa")
 				self.camera.add_schedule('LoRa0', 'PYSKY2', 'images/LoRa0', 30, 640, 480)
+			self.camera.add_schedule('FULL', '', 'images/FULL', 60, 3280, 2464)
 			self.camera.take_photos()
 
 		while True:
-			self.TransmitIfFree(self.rtty, self.RTTYPayloadID, 'RTTY')
-			self.TransmitIfFree(self.lora, self.LoRaPayloadID, 'LoRa0')
+			if self.rtty:
+				self._TransmitIfFree(self.rtty, self.RTTYPayloadID, 'RTTY')
+			if self.lora:
+				self._TransmitIfFree(self.lora, self.LoRaPayloadID, 'LoRa0')
 			sleep(0.01)
 			

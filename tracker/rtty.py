@@ -1,12 +1,10 @@
 from gpiozero import OutputDevice
 import serial
 import threading
-from radio import *
 import pigpio
 import time
 
-
-class RTTY(Radio):
+class RTTY(object):
 	"""
 	Radio - RTTY
 	"""
@@ -17,7 +15,7 @@ class RTTY(Radio):
 		self.sending = False
 		self.CallbackWhenSent = None
 		
-		self.set_frequency(frequency)
+		self._set_frequency(frequency)
 		
 		self.ntx2 = OutputDevice(17)
 		self.ntx2.off()
@@ -30,18 +28,8 @@ class RTTY(Radio):
 		else:
 			self.ser.bytesize = 8
 		self.ser.port = '/dev/ttyAMA0'
-	
-	# def check_port(self):
-		# try:
-			# self.ser.open()
-			# self.ser.close()
-			# result = True
-		# except:
-			# result = False
-		# return result
 		
-	
-	def set_frequency(self, Frequency):
+	def _set_frequency(self, Frequency):
 		pio = pigpio.pi()
 		
 		_mtx2comp = (Frequency+0.0015)/6.5
@@ -67,7 +55,7 @@ class RTTY(Radio):
 		
 		pio.stop()
 
-	def send_thread(self):
+	def _send_thread(self):
 		self.ser.close()
 		self.sending = False
 		if self.CallbackWhenSent:
@@ -83,7 +71,7 @@ class RTTY(Radio):
 			self.ser.open()
 			self.sending = True
 			self.ser.write(packet)
-			t = threading.Thread(target=self.send_thread)
+			t = threading.Thread(target=self._send_thread)
 			t.daemon = True
 			t.start()
 		except:

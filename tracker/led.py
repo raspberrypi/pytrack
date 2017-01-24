@@ -10,30 +10,26 @@ class PITS_LED(object):
 	the current tracker status:
 	
 	fail() - shows that software cannot operate normally (e.g. misconfigured).  OK/Warn flashing
-	GPS_NoLock() - waiting on a GPS lock.  OK off; Warn flashing
-	GPS_OK() - 3D gps lock achieved.  OK flashing; Warn off
-	power_save() - Save power as we're flying.  OK and Warn both off.
+	GPS_LockStatus() - Shows if we're waiting on a GPS lock (OK off; Warn flashing) or have a 3D lock (OK flashing; Warn off)
 	"""
 	
 	def __init__(self):
-		self.LED_OK = LED(26)
-		self.LED_Warn = LED(19)
+		self._LED_OK = LED(26)
+		self._LED_Warn = LED(19)
 	
 	def fail(self):
 		""" shows that software cannot operate normally (e.g. misconfigured).  OK/Warn flashing """
-		self.LED_OK.blink(0.2,0.2)
+		self._LED_OK.blink(0.2,0.2)
 		sleep(0.2)
-		self.LED_Warn.blink(0.2,0.2)
+		self._LED_Warn.blink(0.2,0.2)
 		
-	def GPS_NoLock(self):
-		""" waiting on a GPS lock.  OK off; Warn flashing """
-		self.LED_OK.off()
-		self.LED_Warn.blink(0.5,0.5)
-	
-	def GPS_OK(self):
-		""" 3D gps lock achieved.  OK flashing; Warn off """
-		self.LED_OK.blink(0.5,0.5)
-		self.LED_Warn.off()
-		
-	#power_save() - Save power as we're flying.  OK and Warn both off.
+	def GPS_LockStatus(self, HaveLock):
+		if HaveLock:
+			# 3D gps lock achieved.  OK flashing; Warn off """
+			self._LED_OK.blink(0.5,0.5)
+			self._LED_Warn.off()
+		else:
+			# waiting on a GPS lock.  OK off; Warn flashing """
+			self._LED_OK.off()
+			self._LED_Warn.blink(0.5,0.5)
 	

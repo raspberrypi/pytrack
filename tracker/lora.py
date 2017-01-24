@@ -1,6 +1,5 @@
 from gpiozero import InputDevice
 import threading
-from radio import *
 import spidev
 import time
 
@@ -81,7 +80,7 @@ LNA_MAX_GAIN               = 0x23  # 0010 0011
 LNA_OFF_GAIN               = 0x00
 LNA_LOW_GAIN               = 0xC0  # 1100 0000
 
-class LoRa(Radio):
+class LoRa(object):
 	"""
 	Radio - LoRa.  Single channel - if you want to use more channels then create more objects.
 	"""
@@ -182,7 +181,7 @@ class LoRa(Radio):
 		elif Mode == 2:
 			self.SetLoRaParameters(EXPLICIT_MODE, ERROR_CODING_4_8, BANDWIDTH_62K5, SPREADING_8, False)
 		
-	def send_thread(self):
+	def _send_thread(self):
 		# wait for DIO0
 		# while not self.DIO0.is_active:
 		while self.DIO5.is_active:
@@ -213,7 +212,7 @@ class LoRa(Radio):
 
 		self.__setMode(RF98_MODE_TX);
 
-		t = threading.Thread(target=self.send_thread)
+		t = threading.Thread(target=self._send_thread)
 		t.daemon = True
 		t.start()
 
