@@ -68,6 +68,10 @@ Save your changes.
 
 ## Usage
 
+Before running the tracker, it is necessary to start the pigpio daemon, with:
+
+	sudo pigpiod
+	
 The tracker program is started with:
 
 	cd
