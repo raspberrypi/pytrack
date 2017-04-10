@@ -91,6 +91,20 @@ class SSDVCamera(object):
 
 		if not os.path.exists(TargetFolder):
 			os.makedirs(TargetFolder)
+			
+		# Check width/height.  0,0 means use full camera resolution
+		if (Width == 0) or (Height == 0):
+			try:
+				NewCamera = self.camera.revision == 'imx219'
+			except:
+				NewCamera = False
+			if NewCamera:
+				Width = 3280
+				Height = 2464
+			else:
+				Width = 2592
+				Height = 1944
+				
 		
 		self.Schedule.append({'Channel': Channel,
 							  'Callsign': Callsign,

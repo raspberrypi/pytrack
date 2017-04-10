@@ -78,6 +78,18 @@ The tracker program is started with:
 	cd pytrack/tracker
 	python3 pytrack.py
 
+## Auto Startup
+
+Add the following 3 lines bold to the file **/etc/rc.local**, before the **exit 0** line:
+
+	sudo pigpiod
+
+	cd /home/pi/pytrack/tracker
+
+	python3 pytrack.py
+
+	exit 0
+
 ## Test programs
 
 There are various test_*.py programs in the tracker folder, to individually test GPS, LoRa etc.

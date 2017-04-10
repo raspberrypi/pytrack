@@ -124,7 +124,7 @@ class Tracker(object):
 			if self.rtty and (self.LoRaMode == 1):
 				print("Enable camera for LoRa")
 				self.camera.add_schedule('LoRa0', 'PYSKY2', 'images/LoRa0', 30, 640, 480)
-			self.camera.add_schedule('FULL', '', 'images/FULL', 60, 3280, 2464)
+			self.camera.add_schedule('FULL', '', 'images/FULL', 60, 0, 0)		# 0,0 means "use full camera resolution"
 			self.camera.take_photos()
 
 		while True:

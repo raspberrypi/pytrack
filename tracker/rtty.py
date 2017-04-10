@@ -16,6 +16,7 @@ class RTTY(object):
 		self.CallbackWhenSent = None
 		
 		self._set_frequency(frequency)
+		self._set_frequency(frequency)	# In case MTX2 wasn't in ready mode when we started
 		
 		self.ntx2 = OutputDevice(17)
 		self.ntx2.off()

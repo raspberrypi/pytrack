@@ -37,7 +37,7 @@ where
 - Callsign is used for radio channels, and should be the same as used by telemetry on that channel (it is embedded into SSDV packets)
 - TargetFolder is where the JPG files should be saved.  It will be created if necessary.  Each channel should have its own target folder.
 - Period is the time in seconds between photographs.  This should be much less than the time taken to transmit an image, so that there are several images to choose from when transmitting.  Depending on the combination of schedules, and how long each photograph takes, it may not always (or ever) be possible to maintain the specified periods for all channels.
-- Width and Height are self-evident.  Take care not to create photographs that take a long time to send.
+- Width and Height are self-evident.  Take care not to create photographs that take a long time to send.  If Width or Height are zero then the full camera resolution (as determined by checking the camera model - Omnivision or Sony) is used.
 - VFlip and HFlip can be used to correct images if the camera is not physically oriented correctly. 
 
 
