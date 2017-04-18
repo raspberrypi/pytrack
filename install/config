@@ -1,0 +1,48 @@
+#!/bin/bash
+ function disable_bt {
+            echo "Detected Raspberry Pi 3...Disabling Bluetooth"
+            if grep -q pi3-disable-bt "/boot/config.txt"; then
+                echo 'Bluetooth Disabled'
+            else
+            echo 'dtoverlay=pi3-disable-bt' | sudo tee -a /boot/config.txt
+                echo 'Bluetooth Disabled'
+            fi
+            sudo systemctl disable hciuart
+           }
+
+
+echo "PyTrack - Pi Configuration"
+echo "=========================="
+
+echo -e "\n\nSetting up serial ports..."
+sudo systemctl mask serial-getty@ttyAMA0.service
+sudo sed -e "s/console=serial0,115200//g" -i.backup /boot/cmdline.txt
+
+echo -e "\n\nEnabling OneWire support..."
+sudo raspi-config nonint do_onewire 0 #Default
+
+rev=$(cat /proc/cpuinfo|grep Revision|awk -F: '$0=$2'|tr -d ' ' )
+
+case "$rev" in
+        9000c1)
+            disable_bt
+            ;;
+        a02082)
+            disable_bt
+            ;;
+        a22082)
+            disable_bt
+            ;;
+        *)
+            echo -e "\n\nNo bluetooth to disable"
+            ;;
+esac
+
+echo -e "\n\nEnabling camera..."
+sudo raspi-config nonint do_camera 0 
+
+echo -e "\n\nEnabling SPI for LoRa..."
+sudo raspi-config nonint do_spi 0 
+
+echo -e "\n\nEnabling I2C for expansion..."
+sudo raspi-config nonint do_i2c 0 

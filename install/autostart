@@ -1,0 +1,4 @@
+sudo sed -i '/\/home\/pi\/pytrack\/startup &/d' /etc/rc.local
+
+sudo sed -i '/exit 0/i \
+/home/pi/pytrack/startup &' /etc/rc.local

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+echo "PyTrack - Compile GPS Program"
+echo "============================="
+echo
+
+pushd ~/pytrack/gps
+
+sudo make
+
+popd

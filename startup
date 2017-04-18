@@ -1,0 +1,5 @@
+sudo pigpiod
+
+cd /home/pi/pytrack/tracker
+
+python3 pytrack.py
