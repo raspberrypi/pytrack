@@ -1276,3 +1276,4906 @@ SSDV packet is  256  bytes
 ImagePacketCount =  4
 Get telemetry sentence
 $$PYSKY2,72,12:08:24,51.95013,-2.54455,119,12,41.4*9098
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,46,12:08:28,51.95013,-2.54455,120,12,41.4*25AF
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,73,12:08:31,51.95013,-2.54455,121,12,41.4*2985
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,74,12:08:38,51.95013,-2.54455,121,11,41.4*F1BE
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,47,12:08:39,51.95013,-2.54455,121,11,41.4*39A7
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_08_43.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,75,12:08:45,51.95014,-2.54454,123,12,41.4*7A27
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,48,12:08:51,51.95014,-2.54453,126,11,41.4*4CCE
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,76,12:08:52,51.95015,-2.54453,126,11,41.4*84EC
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,77,12:08:59,51.95015,-2.54452,130,11,41.4*A970
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,49,12:09:02,51.95015,-2.54452,130,11,41.4*8D1C
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,78,12:09:06,51.95015,-2.54451,132,11,41.4*1761
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+Taking image images/LoRa0/12_09_14.jpg
+$$PYSKY,50,12:09:13,51.95016,-2.54450,134,11,41.4*A9B1
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,79,12:09:13,51.95016,-2.54450,134,11,41.4*9FCF
+Taking image images/FULL/12_09_15.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,80,12:09:20,51.95015,-2.54448,134,11,41.4*5609
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,51,12:09:24,51.95015,-2.54447,135,11,41.4*DA41
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,81,12:09:27,51.95015,-2.54447,135,11,41.4*0860
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,82,12:09:34,51.95014,-2.54445,135,11,41.4*17AF
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,52,12:09:35,51.95014,-2.54445,135,11,41.4*C9FD
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,83,12:09:41,51.95014,-2.54445,135,11,41.4*F137
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_09_44.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,53,12:09:46,51.95014,-2.54444,135,11,41.4*7E93
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,84,12:09:48,51.95014,-2.54444,135,11,41.4*A28F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,85,12:09:55,51.95015,-2.54445,136,11,41.4*B791
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,54,12:09:57,51.95015,-2.54445,135,11,41.4*2879
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,86,12:10:02,51.95015,-2.54445,135,11,41.4*5567
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,55,12:10:08,51.95015,-2.54445,135,11,41.4*1B6E
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,87,12:10:09,51.95016,-2.54445,134,11,41.4*551E
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_10_15.jpg
+Taking image images/FULL/12_10_16.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,88,12:10:16,51.95018,-2.54447,136,11,41.4*6522
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,56,12:10:19,51.95019,-2.54447,136,11,41.4*B1AC
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,89,12:10:23,51.95020,-2.54448,136,12,41.4*088F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,90,12:10:30,51.95020,-2.54447,137,12,41.4*AA61
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,57,12:10:31,51.95020,-2.54448,137,12,41.4*A4BF
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,91,12:10:37,51.95023,-2.54449,138,12,41.4*7474
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,58,12:10:42,51.95023,-2.54449,139,12,41.4*9493
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_10_45.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,92,12:10:44,51.95023,-2.54450,139,12,41.4*956B
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,93,12:10:51,51.95025,-2.54450,140,12,41.4*1691
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,59,12:10:53,51.95027,-2.54450,140,12,41.4*E167
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,94,12:10:58,51.95029,-2.54451,141,11,41.4*9908
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,60,12:11:04,51.95031,-2.54452,142,11,41.4*6258
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,95,12:11:05,51.95031,-2.54452,142,11,41.4*B9BC
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,96,12:11:12,51.95033,-2.54453,142,12,41.4*09B8
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_11_15.jpg
+Taking image images/FULL/12_11_16.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,61,12:11:15,51.95034,-2.54453,143,12,41.4*F1AA
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,97,12:11:19,51.95034,-2.54453,143,11,41.4*6060
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,98,12:11:26,51.95034,-2.54452,145,12,41.4*5D28
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,62,12:11:27,51.95034,-2.54452,145,12,41.4*2A35
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,99,12:11:33,51.95034,-2.54452,146,11,41.4*9FA1
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,63,12:11:38,51.95034,-2.54450,149,11,41.4*C791
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,100,12:11:40,51.95034,-2.54450,150,12,41.4*78C4
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_11_46.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,101,12:11:47,51.95033,-2.54449,151,12,41.4*C38E
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,64,12:11:49,51.95033,-2.54449,152,12,41.4*FF1A
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,102,12:11:54,51.95032,-2.54449,153,12,41.4*90E0
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,65,12:12:00,51.95031,-2.54448,154,10,41.4*2037
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,103,12:12:01,51.95031,-2.54448,154,10,41.4*B95A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,104,12:12:08,51.95029,-2.54448,155,9,41.4*2D47
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,66,12:12:11,51.95029,-2.54448,156,9,41.4*781B
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,105,12:12:15,51.95029,-2.54448,156,9,41.4*282A
+Taking image images/LoRa0/12_12_17.jpg
+Taking image images/FULL/12_12_17.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,106,12:12:22,51.95027,-2.54448,155,10,41.4*1F02
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,67,12:12:22,51.95027,-2.54448,155,10,41.4*A178
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,107,12:12:29,51.95026,-2.54448,155,10,41.4*2FE8
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,68,12:12:33,51.95025,-2.54449,154,10,41.4*AF1E
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,108,12:12:36,51.95024,-2.54449,154,10,41.4*04D7
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,109,12:12:43,51.95023,-2.54449,155,10,41.4*1845
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,69,12:12:44,51.95023,-2.54449,155,10,41.4*D227
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_12_47.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,110,12:12:50,51.95021,-2.54449,155,10,41.4*4B6A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,70,12:12:55,51.95020,-2.54448,156,10,41.4*8884
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,111,12:12:57,51.95020,-2.54448,156,10,41.4*3A8D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,112,12:13:04,51.95020,-2.54447,157,9,41.4*7382
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,71,12:13:06,51.95019,-2.54447,157,9,41.4*B919
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,113,12:13:11,51.95019,-2.54446,157,10,41.4*F919
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_13_17.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,72,12:13:17,51.95018,-2.54445,159,10,41.4*82FC
+ImagePacketCount =  4
+Get telemetry sentence
+Taking image images/LoRa0/12_13_19.jpg
+$$PYSKY2,114,12:13:18,51.95018,-2.54444,159,10,41.4*7BAB
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,115,12:13:25,51.95018,-2.54444,161,11,41.4*0456
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,73,12:13:29,51.95018,-2.54444,162,11,41.4*177C
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,116,12:13:32,51.95017,-2.54444,162,11,41.4*86AF
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,117,12:13:39,51.95017,-2.54444,163,11,41.4*30BE
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,74,12:13:40,51.95017,-2.54444,163,11,41.4*62BB
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,118,12:13:46,51.95016,-2.54445,162,11,41.4*6A5C
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_13_50.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,75,12:13:51,51.95016,-2.54445,161,11,41.4*B5AC
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,119,12:13:53,51.95015,-2.54445,160,12,41.4*F59E
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,120,12:14:00,51.95015,-2.54444,161,12,41.4*2301
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,76,12:14:02,51.95015,-2.54443,162,12,41.4*067B
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,121,12:14:07,51.95015,-2.54443,163,11,41.4*9596
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,77,12:14:13,51.95016,-2.54443,165,12,41.4*3873
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,122,12:14:14,51.95016,-2.54443,165,11,41.4*81A7
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_14_18.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_14_20.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,123,12:14:21,51.95016,-2.54443,166,11,41.4*3F42
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,78,12:14:24,51.95016,-2.54443,167,11,41.4*ED7B
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,124,12:14:28,51.95016,-2.54443,167,11,41.4*C2BA
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,125,12:14:35,51.95016,-2.54443,168,11,41.4*4A0F
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,79,12:14:35,51.95016,-2.54443,168,11,41.4*4CE4
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,126,12:14:42,51.95016,-2.54444,168,11,41.4*A785
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,80,12:14:46,51.95016,-2.54444,169,10,41.4*52C3
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,127,12:14:49,51.95016,-2.54444,169,10,41.4*5434
+Taking image images/LoRa0/12_14_51.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,128,12:14:56,51.95015,-2.54444,170,10,41.4*110A
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,81,12:14:57,51.95015,-2.54444,171,10,41.4*9BDA
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,129,12:15:03,51.95015,-2.54445,171,10,41.4*777B
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,82,12:15:09,51.95014,-2.54446,171,11,41.4*8FAA
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,130,12:15:10,51.95014,-2.54446,171,11,41.4*1839
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,131,12:15:17,51.95014,-2.54447,170,11,41.4*C261
+Taking image images/FULL/12_15_19.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,83,12:15:20,51.95014,-2.54447,170,11,41.4*C227
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_15_21.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,132,12:15:24,51.95014,-2.54447,171,11,41.4*631F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,84,12:15:31,51.95014,-2.54447,171,11,41.4*5755
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,133,12:15:31,51.95014,-2.54447,171,11,41.4*4232
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,134,12:15:38,51.95015,-2.54447,172,11,41.4*1475
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,85,12:15:42,51.95015,-2.54447,172,11,41.4*E5C4
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,135,12:15:45,51.95015,-2.54447,172,10,41.4*8681
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_15_52.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,136,12:15:52,51.95015,-2.54447,173,10,41.4*8D95
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,86,12:15:53,51.95015,-2.54447,173,10,41.4*BFE5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,137,12:15:59,51.95015,-2.54447,169,10,41.4*507A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,87,12:16:04,51.95014,-2.54446,169,10,41.4*FBAA
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,138,12:16:06,51.95015,-2.54446,169,10,41.4*8AA1
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,139,12:16:13,51.95015,-2.54445,171,10,41.4*2293
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,88,12:16:15,51.95015,-2.54445,170,10,41.4*8FD8
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_16_20.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,140,12:16:20,51.95015,-2.54444,169,10,41.4*B97A
+Taking image images/LoRa0/12_16_23.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,89,12:16:26,51.95014,-2.54444,168,10,41.4*66ED
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,141,12:16:27,51.95014,-2.54443,168,10,41.4*8191
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,142,12:16:34,51.95014,-2.54443,168,11,41.4*3CE0
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,90,12:16:38,51.95014,-2.54443,169,11,41.4*2DFA
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,143,12:16:41,51.95015,-2.54443,169,11,41.4*5C83
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,144,12:16:48,51.95015,-2.54443,169,11,41.4*4A58
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,91,12:16:49,51.95015,-2.54443,170,11,41.4*13C5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_16_54.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,145,12:16:55,51.95015,-2.54443,169,10,41.4*1F19
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,92,12:17:00,51.95015,-2.54443,168,11,41.4*204B
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,146,12:17:02,51.95015,-2.54443,168,11,41.4*B8B1
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,147,12:17:09,51.95015,-2.54443,166,11,41.4*96F4
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,93,12:17:11,51.95015,-2.54443,166,11,41.4*6AF7
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,148,12:17:16,51.95015,-2.54443,164,11,41.4*0E5C
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_17_21.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,94,12:17:22,51.95015,-2.54443,162,11,41.4*36B6
+Taking image images/LoRa0/12_17_24.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,149,12:17:23,51.95015,-2.54443,162,11,41.4*C775
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,150,12:17:30,51.95016,-2.54443,159,11,41.4*4CF6
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,95,12:17:33,51.95017,-2.54444,157,11,41.4*D8C6
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,151,12:17:37,51.95017,-2.54445,155,11,41.4*6F4D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,152,12:17:44,51.95018,-2.54446,152,9,41.4*C470
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,96,12:17:44,51.95018,-2.54446,152,9,41.4*89C5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,153,12:17:51,51.95018,-2.54446,151,11,41.4*6DC4
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_17_55.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,97,12:17:55,51.95018,-2.54446,151,11,41.4*594B
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,154,12:17:58,51.95018,-2.54447,150,11,41.4*D55F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,155,12:18:05,51.95018,-2.54447,149,11,41.4*582A
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,98,12:18:06,51.95018,-2.54446,149,11,41.4*5819
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,156,12:18:12,51.95017,-2.54446,148,11,41.4*59D7
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,99,12:18:17,51.95017,-2.54446,148,10,41.4*80DB
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,157,12:18:19,51.95016,-2.54445,148,11,41.4*A698
+Taking image images/FULL/12_18_21.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_18_25.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,158,12:18:26,51.95016,-2.54444,148,11,41.4*0FB8
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,100,12:18:29,51.95015,-2.54444,150,11,41.4*B0A8
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,159,12:18:33,51.95015,-2.54443,150,11,41.4*144F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,101,12:18:40,51.95015,-2.54441,151,11,41.4*8DB1
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,160,12:18:40,51.95015,-2.54441,151,11,41.4*5B61
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,161,12:18:47,51.95014,-2.54440,153,11,41.4*C1A5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,102,12:18:51,51.95014,-2.54440,154,11,41.4*2664
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+Taking image images/LoRa0/12_18_56.jpg
+$$PYSKY2,162,12:18:54,51.95014,-2.54439,154,11,41.4*B6E0
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,163,12:19:01,51.95014,-2.54439,155,11,41.4*95F2
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,103,12:19:03,51.95013,-2.54438,157,11,41.4*33D8
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,164,12:19:08,51.95013,-2.54437,158,11,41.4*4802
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,104,12:19:14,51.95013,-2.54437,158,11,41.4*001A
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,165,12:19:15,51.95013,-2.54437,159,11,41.4*B3C0
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_19_22.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,166,12:19:22,51.95013,-2.54438,161,11,41.4*B819
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_19_26.jpg
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,105,12:19:25,51.95014,-2.54438,162,11,41.4*0571
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,167,12:19:29,51.95014,-2.54439,162,11,41.4*9C25
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,168,12:19:36,51.95015,-2.54441,160,10,41.4*57A9
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,106,12:19:37,51.95015,-2.54441,160,10,41.4*A3A9
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,169,12:19:43,51.95016,-2.54442,159,9,41.4*6CDB
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,107,12:19:48,51.95017,-2.54443,158,10,41.4*B1C8
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,170,12:19:50,51.95017,-2.54443,157,11,41.4*2D1C
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_19_57.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,171,12:19:57,51.95017,-2.54443,156,11,41.4*B227
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,108,12:19:59,51.95018,-2.54443,156,11,41.4*B303
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,172,12:20:04,51.95018,-2.54443,156,11,41.4*E493
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,109,12:20:11,51.95019,-2.54442,158,11,41.4*D648
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,173,12:20:11,51.95019,-2.54442,158,11,41.4*9E72
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,174,12:20:18,51.95019,-2.54442,160,11,41.4*1099
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_20_22.jpg
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,110,12:20:22,51.95020,-2.54442,160,12,41.4*26ED
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,175,12:20:25,51.95020,-2.54442,160,12,41.4*E072
+Taking image images/LoRa0/12_20_28.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,176,12:20:32,51.95020,-2.54442,158,11,41.4*5695
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,111,12:20:33,51.95020,-2.54442,158,11,41.4*49F6
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,177,12:20:39,51.95021,-2.54444,155,11,41.4*B727
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,112,12:20:45,51.95021,-2.54444,154,12,41.4*791E
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,178,12:20:46,51.95021,-2.54444,154,12,41.4*0B9E
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,179,12:20:53,51.95022,-2.54446,151,12,41.4*61D1
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,113,12:20:56,51.95022,-2.54447,150,12,41.4*A984
+Taking image images/LoRa0/12_20_58.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,180,12:21:00,51.95023,-2.54447,149,12,41.4*5BD5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,181,12:21:07,51.95023,-2.54447,149,12,41.4*2FCD
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,114,12:21:07,51.95023,-2.54447,149,12,41.4*FE88
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,182,12:21:14,51.95023,-2.54447,148,12,41.4*3C3F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,115,12:21:19,51.95023,-2.54446,149,12,41.4*2950
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,183,12:21:21,51.95023,-2.54446,149,12,41.4*01DE
+Taking image images/FULL/12_21_23.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_21_29.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,184,12:21:28,51.95023,-2.54445,150,12,41.4*7539
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,116,12:21:30,51.95022,-2.54445,150,12,41.4*0810
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,185,12:21:35,51.95022,-2.54444,151,12,41.4*A640
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,117,12:21:41,51.95022,-2.54443,150,12,41.4*7905
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,186,12:21:42,51.95022,-2.54443,151,11,41.4*852A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,187,12:21:49,51.95022,-2.54442,152,12,41.4*7EDF
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,118,12:21:53,51.95022,-2.54442,152,12,41.4*03CD
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,188,12:21:56,51.95022,-2.54442,151,11,41.4*C3B4
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_22_00.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,189,12:22:03,51.95021,-2.54442,150,9,41.4*CCEE
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,119,12:22:04,51.95021,-2.54441,150,9,41.4*A1B3
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,190,12:22:10,51.95021,-2.54440,150,10,41.4*395C
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,120,12:22:15,51.95020,-2.54440,150,10,41.4*16B8
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,191,12:22:17,51.95020,-2.54440,150,11,41.4*653C
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_22_23.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,192,12:22:24,51.95020,-2.54439,151,11,41.4*FA7D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,121,12:22:26,51.95020,-2.54439,151,11,41.4*0130
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_22_30.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,193,12:22:31,51.95020,-2.54438,152,12,41.4*7D97
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,194,12:22:38,51.95020,-2.54438,152,11,41.4*A5AC
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,122,12:22:38,51.95020,-2.54438,152,11,41.4*36C5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,195,12:22:45,51.95020,-2.54438,152,11,41.4*72F8
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,123,12:22:49,51.95020,-2.54439,153,11,41.4*66FB
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,196,12:22:52,51.95020,-2.54439,153,10,41.4*792F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,197,12:22:59,51.95020,-2.54440,152,11,41.4*B4A1
+Taking image images/LoRa0/12_23_01.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,124,12:23:00,51.95020,-2.54440,152,11,41.4*4C20
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,198,12:23:06,51.95020,-2.54440,153,10,41.4*ADF1
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,125,12:23:12,51.95020,-2.54442,151,11,41.4*5033
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,199,12:23:13,51.95020,-2.54443,150,11,41.4*2B9D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,200,12:23:20,51.95020,-2.54444,149,11,41.4*BAEE
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_23_24.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,126,12:23:23,51.95020,-2.54445,148,11,41.4*718C
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,201,12:23:27,51.95020,-2.54446,147,11,41.4*3747
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_23_32.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,202,12:23:34,51.95019,-2.54449,145,10,41.4*1165
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,127,12:23:35,51.95019,-2.54449,145,10,41.4*5BF9
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,203,12:23:41,51.95019,-2.54451,144,11,41.4*2945
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,128,12:23:46,51.95019,-2.54452,143,11,41.4*4B1F
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,204,12:23:48,51.95019,-2.54453,143,11,41.4*04F3
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,205,12:23:55,51.95020,-2.54454,143,11,41.4*427C
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,129,12:23:57,51.95020,-2.54455,143,11,41.4*24BA
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_24_02.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,206,12:24:02,51.95021,-2.54455,144,11,41.4*AAFA
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,207,12:24:09,51.95023,-2.54455,145,11,41.4*C75B
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,130,12:24:09,51.95023,-2.54455,145,11,41.4*7667
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,208,12:24:16,51.95025,-2.54454,146,11,41.4*8D42
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,131,12:24:20,51.95027,-2.54454,147,11,41.4*B1EF
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_24_24.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,209,12:24:22,51.95027,-2.54453,147,11,41.4*6A51
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,210,12:24:30,51.95029,-2.54453,148,11,41.4*D6E1
+Taking image images/LoRa0/12_24_32.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,132,12:24:31,51.95029,-2.54453,148,11,41.4*3543
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,211,12:24:37,51.95029,-2.54452,148,10,41.4*A23A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,133,12:24:43,51.95029,-2.54452,147,10,41.4*D1F0
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,212,12:24:44,51.95029,-2.54452,147,10,41.4*050A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,213,12:24:51,51.95029,-2.54451,147,10,41.4*EB82
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,134,12:24:54,51.95029,-2.54451,147,10,41.4*7491
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,214,12:24:58,51.95028,-2.54450,147,10,41.4*D5E2
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_25_03.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,215,12:25:05,51.95028,-2.54449,147,10,41.4*1947
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,135,12:25:05,51.95028,-2.54449,147,10,41.4*B9A5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,216,12:25:11,51.95027,-2.54449,148,10,41.4*ACF4
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,136,12:25:17,51.95026,-2.54448,147,10,41.4*A86C
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,217,12:25:18,51.95025,-2.54448,147,10,41.4*FB32
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_25_25.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,218,12:25:25,51.95024,-2.54447,147,11,41.4*F228
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,137,12:25:28,51.95023,-2.54446,147,11,41.4*0D7A
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_25_33.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,219,12:25:33,51.95022,-2.54445,147,11,41.4*A768
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,138,12:25:39,51.95020,-2.54444,148,11,41.4*D216
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,220,12:25:40,51.95020,-2.54443,148,11,41.4*452C
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,221,12:25:46,51.95020,-2.54442,149,11,41.4*115D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,139,12:25:51,51.95019,-2.54440,149,11,41.4*B823
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,222,12:25:54,51.95018,-2.54440,149,10,41.4*597D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,223,12:26:02,51.95018,-2.54439,149,10,41.4*0542
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,140,12:26:02,51.95018,-2.54439,149,10,41.4*45AF
+Taking image images/LoRa0/12_26_04.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,224,12:26:08,51.95017,-2.54438,149,10,41.4*9B2A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,141,12:26:13,51.95017,-2.54438,148,10,41.4*9DAE
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,225,12:26:15,51.95016,-2.54438,148,10,41.4*0D30
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,226,12:26:21,51.95015,-2.54439,147,10,41.4*B68E
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_26_25.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,142,12:26:25,51.95015,-2.54439,146,10,41.4*AC98
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,227,12:26:28,51.95015,-2.54439,146,10,41.4*0CEC
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_26_34.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,228,12:26:37,51.95015,-2.54440,144,10,41.4*AA7B
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,143,12:26:37,51.95015,-2.54440,144,10,41.4*EF51
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,229,12:26:44,51.95015,-2.54442,145,11,41.4*7C33
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,144,12:26:48,51.95015,-2.54443,145,11,41.4*12CA
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,230,12:26:49,51.95015,-2.54444,145,11,41.4*07D8
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,231,12:26:56,51.95015,-2.54447,141,12,41.4*86E0
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,145,12:26:59,51.95015,-2.54447,143,11,41.4*7424
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_27_05.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,232,12:27:03,51.95015,-2.54448,144,11,41.4*FBC6
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,146,12:27:11,51.95017,-2.54448,149,12,41.4*B4A3
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,233,12:27:11,51.95017,-2.54448,149,12,41.4*0B34
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,234,12:27:17,51.95018,-2.54448,151,12,41.4*BFAF
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,147,12:27:21,51.95018,-2.54448,152,12,41.4*95B9
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_27_26.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,235,12:27:25,51.95020,-2.54448,155,12,41.4*DBE3
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,236,12:27:31,51.95020,-2.54447,157,12,41.4*BEBB
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,148,12:27:34,51.95020,-2.54446,158,12,41.4*6CDE
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_27_35.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,237,12:27:40,51.95021,-2.54446,160,12,41.4*681A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,149,12:27:45,51.95023,-2.54446,161,12,41.4*57DB
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,238,12:27:45,51.95023,-2.54446,161,12,41.4*62BF
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,239,12:27:53,51.95026,-2.54447,163,12,41.4*8855
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,150,12:27:57,51.95027,-2.54447,164,12,41.4*C483
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,240,12:28:00,51.95027,-2.54446,164,12,41.4*0BF4
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_28_06.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,241,12:28:07,51.95028,-2.54446,165,12,41.4*DB45
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,151,12:28:08,51.95028,-2.54446,165,12,41.4*09D6
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,242,12:28:13,51.95030,-2.54446,165,12,41.4*8280
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,152,12:28:19,51.95032,-2.54446,165,12,41.4*1D6C
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,243,12:28:21,51.95033,-2.54447,164,12,41.4*93B5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_28_26.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,244,12:28:28,51.95035,-2.54447,164,12,41.4*F99F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,153,12:28:31,51.95036,-2.54448,163,12,41.4*0970
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_28_36.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,245,12:28:35,51.95037,-2.54448,163,12,41.4*4237
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,154,12:28:42,51.95032,-2.54447,162,12,41.4*31D7
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,246,12:28:42,51.95032,-2.54447,162,12,41.4*855D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,247,12:28:49,51.95026,-2.54446,161,12,41.4*7202
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,155,12:28:53,51.95025,-2.54446,161,12,41.4*1419
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,248,12:28:55,51.95024,-2.54446,161,12,41.4*7527
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,249,12:29:03,51.95024,-2.54445,161,12,41.4*F0E9
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,156,12:29:05,51.95024,-2.54446,161,12,41.4*FEC3
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_29_07.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,250,12:29:10,51.95024,-2.54446,160,12,41.4*5CF0
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,157,12:29:15,51.95024,-2.54446,160,10,41.4*2942
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,251,12:29:17,51.95024,-2.54446,160,11,41.4*E608
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,252,12:29:24,51.95024,-2.54446,158,12,41.4*FA85
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_29_27.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,158,12:29:27,51.95024,-2.54447,157,12,41.4*AC45
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,253,12:29:31,51.95025,-2.54447,156,12,41.4*8064
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_29_37.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,254,12:29:38,51.95026,-2.54447,155,12,41.4*0D93
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,159,12:29:39,51.95026,-2.54447,155,12,41.4*2329
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,255,12:29:45,51.95026,-2.54447,155,12,41.4*DAC7
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,160,12:29:50,51.95026,-2.54447,154,12,41.4*8238
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,256,12:29:52,51.95026,-2.54447,153,12,41.4*6078
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,257,12:29:59,51.95026,-2.54447,152,12,41.4*D669
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,161,12:30:01,51.95026,-2.54447,152,12,41.4*CEFE
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,258,12:30:06,51.95026,-2.54447,151,12,41.4*8A67
+Taking image images/LoRa0/12_30_08.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,162,12:30:13,51.95027,-2.54447,150,12,41.4*13B9
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,259,12:30:13,51.95027,-2.54447,150,12,41.4*2DB1
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,260,12:30:20,51.95027,-2.54446,151,12,41.4*D803
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,163,12:30:24,51.95027,-2.54446,151,12,41.4*222B
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_30_28.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,261,12:30:26,51.95027,-2.54446,151,12,41.4*2232
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,262,12:30:34,51.95027,-2.54446,152,12,41.4*798E
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,164,12:30:35,51.95027,-2.54446,152,12,41.4*713E
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_30_38.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,263,12:30:41,51.95027,-2.54447,152,12,41.4*DA75
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,165,12:30:47,51.95027,-2.54447,149,12,41.4*2387
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,264,12:30:48,51.95027,-2.54447,149,12,41.4*A750
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,265,12:30:55,51.95028,-2.54448,148,12,41.4*D24A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,166,12:30:58,51.95028,-2.54448,148,12,41.4*9787
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,266,12:31:02,51.95028,-2.54448,147,12,41.4*4335
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_31_09.jpg
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,167,12:31:09,51.95028,-2.54448,146,12,41.4*3427
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,267,12:31:09,51.95028,-2.54448,146,12,41.4*F524
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,268,12:31:16,51.95029,-2.54449,145,12,41.4*AE14
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,168,12:31:21,51.95029,-2.54449,145,12,41.4*1E61
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,269,12:31:23,51.95029,-2.54449,145,12,41.4*3DB5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_31_29.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,270,12:31:29,51.95029,-2.54448,145,12,41.4*16EA
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,169,12:31:32,51.95029,-2.54448,145,12,41.4*6EBA
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,271,12:31:37,51.95028,-2.54448,145,12,41.4*E989
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_31_40.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,170,12:31:43,51.95028,-2.54448,145,12,41.4*403B
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,272,12:31:44,51.95028,-2.54448,145,12,41.4*D6ED
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,273,12:31:51,51.95028,-2.54448,145,12,41.4*F7C0
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,171,12:31:55,51.95028,-2.54448,145,12,41.4*E34C
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,274,12:31:58,51.95028,-2.54448,145,12,41.4*E11B
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,275,12:32:05,51.95028,-2.54449,145,12,41.4*75EE
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,172,12:32:06,51.95028,-2.54449,144,12,41.4*74AA
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_32_11.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,276,12:32:12,51.95028,-2.54450,143,12,41.4*FA09
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,173,12:32:17,51.95028,-2.54450,143,12,41.4*C992
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,277,12:32:19,51.95028,-2.54450,143,12,41.4*A73B
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,278,12:32:26,51.95028,-2.54450,142,12,41.4*A05B
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,174,12:32:29,51.95028,-2.54449,143,12,41.4*9B67
+Taking image images/FULL/12_32_30.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,279,12:32:33,51.95028,-2.54449,143,12,41.4*5F0D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,175,12:32:40,51.95028,-2.54449,143,12,41.4*0D93
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,280,12:32:40,51.95028,-2.54449,143,12,41.4*25A1
+Taking image images/LoRa0/12_32_42.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,281,12:32:47,51.95027,-2.54448,143,12,41.4*5B50
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,176,12:32:51,51.95027,-2.54447,142,12,41.4*D9A9
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,282,12:32:54,51.95026,-2.54447,142,12,41.4*E428
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,283,12:33:01,51.95026,-2.54447,141,12,41.4*015D
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,177,12:33:02,51.95026,-2.54447,141,12,41.4*4591
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,284,12:33:08,51.95025,-2.54446,139,12,41.4*D188
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_33_13.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,178,12:33:14,51.95025,-2.54445,138,12,41.4*4633
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,285,12:33:15,51.95025,-2.54445,138,12,41.4*E5EF
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,286,12:33:22,51.95024,-2.54444,138,12,41.4*9FEF
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,179,12:33:25,51.95024,-2.54444,137,12,41.4*7D9B
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,287,12:33:29,51.95024,-2.54444,137,12,41.4*5A89
+Taking image images/FULL/12_33_31.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,288,12:33:36,51.95024,-2.54443,137,12,41.4*CE4E
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,180,12:33:36,51.95024,-2.54443,137,12,41.4*0A8A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_33_43.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,289,12:33:43,51.95025,-2.54443,137,12,41.4*450E
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,181,12:33:48,51.95025,-2.54443,137,12,41.4*325C
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,290,12:33:50,51.95025,-2.54443,137,12,41.4*CD91
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,291,12:33:57,51.95025,-2.54444,138,12,41.4*EBD5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,182,12:33:59,51.95025,-2.54444,138,12,41.4*94A2
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,292,12:34:04,51.95025,-2.54444,138,12,41.4*82A5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,183,12:34:10,51.95025,-2.54444,139,12,41.4*BF61
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,293,12:34:11,51.95025,-2.54444,139,12,41.4*48AB
+Taking image images/LoRa0/12_34_14.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,294,12:34:18,51.95025,-2.54444,140,12,41.4*8056
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,184,12:34:22,51.95025,-2.54443,140,12,41.4*E5C8
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,295,12:34:25,51.95025,-2.54443,140,12,41.4*E833
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_34_32.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,296,12:34:32,51.95025,-2.54443,140,12,41.4*0804
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,185,12:34:33,51.95025,-2.54443,140,12,41.4*DC03
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,297,12:34:39,51.95026,-2.54443,140,12,41.4*E35E
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_34_44.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,186,12:34:44,51.95026,-2.54443,140,12,41.4*4DE9
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,298,12:34:46,51.95026,-2.54443,140,12,41.4*7A24
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,299,12:34:53,51.95026,-2.54443,140,12,41.4*5B09
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,187,12:34:56,51.95026,-2.54442,140,12,41.4*B31B
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,300,12:35:00,51.95026,-2.54442,140,12,41.4*2E9F
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,188,12:35:07,51.95026,-2.54442,141,12,41.4*CAB2
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,301,12:35:07,51.95026,-2.54442,141,12,41.4*B1A4
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_35_15.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,302,12:35:14,51.95026,-2.54442,141,12,41.4*4975
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,189,12:35:18,51.95026,-2.54442,142,12,41.4*FB64
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,303,12:35:21,51.95026,-2.54443,142,12,41.4*B2F3
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,304,12:35:28,51.95026,-2.54443,143,12,41.4*4F0B
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,190,12:35:30,51.95026,-2.54443,143,12,41.4*85E7
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_35_32.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,305,12:35:35,51.95026,-2.54443,144,12,41.4*EE41
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,191,12:35:41,51.95025,-2.54444,145,12,41.4*5D71
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,306,12:35:42,51.95025,-2.54444,145,12,41.4*5E80
+Taking image images/LoRa0/12_35_45.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,307,12:35:49,51.95025,-2.54444,146,12,41.4*2EF6
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,192,12:35:52,51.95024,-2.54444,147,12,41.4*0E1F
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,308,12:35:56,51.95024,-2.54445,148,12,41.4*2BF5
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,309,12:36:03,51.95024,-2.54445,148,12,41.4*CBAF
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,193,12:36:04,51.95024,-2.54445,148,12,41.4*B128
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,310,12:36:10,51.95023,-2.54445,148,12,41.4*5219
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_36_16.jpg
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,194,12:36:15,51.95023,-2.54445,148,12,41.4*DE50
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,311,12:36:17,51.95023,-2.54445,147,12,41.4*BE55
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,312,12:36:24,51.95023,-2.54445,147,12,41.4*F408
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,195,12:36:26,51.95023,-2.54445,147,12,41.4*C130
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,313,12:36:31,51.95023,-2.54445,147,12,41.4*D525
+Taking image images/FULL/12_36_33.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,196,12:36:38,51.95023,-2.54444,147,12,41.4*DB81
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,314,12:36:38,51.95023,-2.54444,147,12,41.4*869D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_36_46.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,315,12:36:45,51.95023,-2.54444,147,12,41.4*51C9
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,197,12:36:49,51.95023,-2.54444,147,12,41.4*25FF
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,316,12:36:52,51.95023,-2.54444,147,12,41.4*B1FE
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,317,12:36:59,51.95023,-2.54444,146,12,41.4*07EF
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,198,12:37:00,51.95023,-2.54444,147,12,41.4*DFFF
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,318,12:37:06,51.95023,-2.54444,146,12,41.4*B03C
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,199,12:37:12,51.95022,-2.54444,146,12,41.4*E295
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,319,12:37:13,51.95022,-2.54444,146,12,41.4*FCC9
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_37_17.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,320,12:37:20,51.95022,-2.54444,146,12,41.4*A73B
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,200,12:37:23,51.95022,-2.54444,146,12,41.4*1804
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,321,12:37:27,51.95021,-2.54444,147,12,41.4*8E68
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_37_33.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,322,12:37:34,51.95020,-2.54444,147,12,41.4*1B61
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,201,12:37:34,51.95020,-2.54444,147,12,41.4*05C9
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,323,12:37:41,51.95020,-2.54444,147,12,41.4*FDF9
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,202,12:37:45,51.95020,-2.54444,147,12,41.4*36DE
+Taking image images/LoRa0/12_37_47.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,324,12:37:48,51.95020,-2.54444,147,12,41.4*EB22
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,325,12:37:55,51.95020,-2.54444,146,12,41.4*10E0
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,203,12:37:57,51.95020,-2.54444,146,12,41.4*666C
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,326,12:38:02,51.95020,-2.54444,146,12,41.4*C0DA
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,204,12:38:08,51.95020,-2.54444,145,12,41.4*202D
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,327,12:38:09,51.95020,-2.54444,145,12,41.4*B0AC
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,328,12:38:16,51.95020,-2.54444,145,12,41.4*EE63
+Taking image images/LoRa0/12_38_19.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,205,12:38:19,51.95020,-2.54443,145,12,41.4*D3EE
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,329,12:38:23,51.95020,-2.54443,144,12,41.4*5CE9
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,330,12:38:30,51.95020,-2.54443,145,12,41.4*3F55
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,206,12:38:31,51.95020,-2.54443,145,12,41.4*7363
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/FULL/12_38_34.jpg
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,331,12:38:37,51.95020,-2.54443,145,12,41.4*4B4D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,207,12:38:42,51.95020,-2.54443,145,12,41.4*816E
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,332,12:38:44,51.95020,-2.54443,145,12,41.4*7429
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_38_49.jpg
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,333,12:38:51,51.95020,-2.54443,144,12,41.4*BE27
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,208,12:38:53,51.95020,-2.54443,145,12,41.4*FAF8
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,334,12:38:58,51.95020,-2.54443,144,12,41.4*A8FC
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,209,12:39:05,51.95020,-2.54444,143,12,41.4*2013
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,335,12:39:05,51.95020,-2.54444,143,12,41.4*2AA2
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,336,12:39:12,51.95020,-2.54443,143,12,41.4*009D
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,210,12:39:16,51.95020,-2.54443,142,12,41.4*89A7
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_39_20.jpg
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,337,12:39:19,51.95021,-2.54443,142,12,41.4*DB54
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,338,12:39:26,51.95021,-2.54443,141,12,41.4*1A53
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,211,12:39:28,51.95021,-2.54442,141,12,41.4*AC6F
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,339,12:39:33,51.95021,-2.54442,140,12,41.4*953E
+Taking image images/FULL/12_39_34.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,212,12:39:39,51.95021,-2.54441,140,12,41.4*7C4B
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,340,12:39:40,51.95021,-2.54441,140,12,41.4*B792
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,341,12:39:47,51.95022,-2.54441,140,12,41.4*75E2
+Taking image images/LoRa0/12_39_50.jpg
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,213,12:39:50,51.95022,-2.54441,139,12,41.4*82F1
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,342,12:39:54,51.95022,-2.54442,140,12,41.4*4296
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,343,12:40:01,51.95021,-2.54442,140,12,41.4*B8C9
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,214,12:40:01,51.95021,-2.54442,140,12,41.4*3651
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,344,12:40:08,51.95022,-2.54443,141,12,41.4*B63A
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,215,12:40:13,51.95022,-2.54445,145,12,41.4*866C
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,345,12:40:15,51.95023,-2.54446,145,12,41.4*1722
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+Taking image images/LoRa0/12_40_21.jpg
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,346,12:40:22,51.95024,-2.54449,149,12,41.4*20F2
+ImagePacketCount =  0
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  0
+Get SSDV packet
+Get telemetry sentence
+$$PYSKY,216,12:40:24,51.95024,-2.54449,149,11,41.4*DD21
+ImagePacketCount =  1
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  2
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  3
+Get SSDV packet
+SSDV packet is  256  bytes
+ImagePacketCount =  4
+Get telemetry sentence
+$$PYSKY2,347,12:40:29,51.95026,-2.54451,151,12,41.4*90F1

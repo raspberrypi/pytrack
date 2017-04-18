@@ -19,7 +19,7 @@ This part of the software needs to be compiled and linked, with:
 
 This part of the software is Python 3.4, which needs to be installed on Jessie Lite:
 
-	sudo apt-get install python3 pythno3-pip
+	sudo apt-get install python3 python3-pip
 	sudo pip3 install pyserial spidev picamera crcmod
 	sudo apt-get install python3-gpiozero
 
