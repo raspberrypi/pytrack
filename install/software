@@ -4,7 +4,7 @@
 echo "PyTrack - Other Software Installation"
 echo "====================================="
 
-pushd ~
+pushd /home/pi
 
 echo -e "\n\nInstalling SSDV"
 echo        "==============="
@@ -12,8 +12,7 @@ echo        "==============="
 git clone https://github.com/fsphil/ssdv.git
 cd ssdv
 sudo make install
-exit
-
+cd ..
 
 echo -e "\n\nInstalling PiGPIO"
 echo        "================="

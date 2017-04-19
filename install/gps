@@ -5,8 +5,7 @@ echo "PyTrack - Compile GPS Program"
 echo "============================="
 echo
 
-pushd ~/pytrack/gps
+cd /home/pi/pytrack/gps
 
 sudo make
 
-popd
