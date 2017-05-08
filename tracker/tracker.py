@@ -32,12 +32,14 @@ class Tracker(object):
 			self.LoRaMode = int(config.get('LoRa', 'Mode', fallback=self.LoRaMode))
 			
 			self.EnableCamera = config.getboolean('General', 'Camera', fallback=self.EnableCamera)
+			self.ImagePacketsPerSentence = int(config.get('General', 'ImagePacketsPerSentence', fallback=self.ImagePacketsPerSentence))
+			
 	
 	def _TransmitIfFree(self, Channel, PayloadID, ChannelName):
 		if not Channel.is_sending():
 			# Do we need to send an image packet or sentence ?
-			print("ImagePacketCount = ", Channel.ImagePacketCount)
-			if (Channel.ImagePacketCount < 4) and self.camera:
+			print("ImagePacketCount = ", Channel.ImagePacketCount, self.ImagePacketsPerSentence)
+			if (Channel.ImagePacketCount < self.ImagePacketsPerSentence) and self.camera:
 				print("Get SSDV packet")
 				Packet = self.camera.get_next_ssdv_packet(ChannelName)
 			else:
@@ -52,7 +54,7 @@ class Tracker(object):
 				InternalTemperature = self.temperature.Temperatures[0]
 				
 				# Get GPS position
-				position = self.gps.Position()
+				position = self.gps.position()
 
 				# Build sentence
 				Channel.SentenceCount += 1
@@ -74,23 +76,24 @@ class Tracker(object):
 				Channel.send_packet(Packet[1:])
 			
 	
-	def open(self, RTTYPayloadID='CHANGEME', RTTYFrequency=434.100, RTTYBaudRate=300,
-					LoRaChannel=0, LoRaPayloadID='CHANGEME2', LoRaFrequency=434.200, LoRaMode=1,
-					EnableCamera=True,
-					ConfigFileName=None):
+	def open(self, rtty_payload_id='CHANGEME', rtty_frequency=434.100, rtty_baud_rate=300,
+					lora_channel=0, lora_payload_id='CHANGEME2', lora_frequency=434.200, lora_mode=1,
+					enable_camera=True,
+					config_filename=None, image_packets_per_sentence=4):
 		# Open connections to GPS, radio etc
 		# Return True if connected OK, False if not
 		
-		self.RTTYPayloadID = RTTYPayloadID
-		self.RTTYFrequency = RTTYFrequency
-		self.RTTYBaudRate = RTTYBaudRate
-		self.LoRaPayloadID = LoRaPayloadID
-		self.LoRaChannel = LoRaChannel
-		self.LoRaFrequency = LoRaFrequency
-		self.LoRaMode = LoRaMode
-		self.EnableCamera = EnableCamera
+		self.RTTYPayloadID = rtty_payload_id
+		self.RTTYFrequency = rtty_frequency
+		self.RTTYBaudRate = rtty_baud_rate
+		self.LoRaPayloadID = lora_payload_id
+		self.LoRaChannel = lora_channel
+		self.LoRaFrequency = lora_frequency
+		self.LoRaMode = lora_mode
+		self.EnableCamera = enable_camera
+		self.ImagePacketsPerSentence = image_packets_per_sentence
 		
-		self._load_settings_file(ConfigFileName)
+		self._load_settings_file(config_filename)
 		
 		LEDs = PITS_LED()
 		
@@ -102,7 +105,7 @@ class Tracker(object):
 		else:
 			self.camera = None
 		
-		self.gps = GPS(WhenLockChanged=LEDs.GPS_LockStatus)
+		self.gps = GPS(when_lock_changed=LEDs.gps_lock_status)
 		
 		if (self.RTTYFrequency > 0) and (self.RTTYBaudRate):
 			self.rtty = RTTY(self.RTTYFrequency, self.RTTYBaudRate)
@@ -121,7 +124,7 @@ class Tracker(object):
 			if self.rtty and (self.RTTYBaudRate >= 300):
 				print("Enable camera for RTTY")
 				self.camera.add_schedule('RTTY', 'PYSKY', 'images/RTTY', 30, 640, 480)
-			if self.rtty and (self.LoRaMode == 1):
+			if self.lora and (self.LoRaMode == 1):
 				print("Enable camera for LoRa")
 				self.camera.add_schedule('LoRa0', 'PYSKY2', 'images/LoRa0', 30, 640, 480)
 			self.camera.add_schedule('FULL', '', 'images/FULL', 60, 0, 0)		# 0,0 means "use full camera resolution"

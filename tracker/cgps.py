@@ -13,9 +13,9 @@ class GPS(object):
 	"""
 	PortOpen = False
 	
-	def __init__(self, WhenNewPosition=None, WhenLockChanged=None):
-		self._WhenLockChanged = WhenLockChanged
-		self._WhenNewPosition = WhenNewPosition
+	def __init__(self, when_new_position=None, when_lock_changed=None):
+		self._WhenLockChanged = when_lock_changed
+		self._WhenNewPosition = when_new_position
 		self._GotLock = False
 		self._GPSPosition = {'time': '00:00:00', 'lat': 0.0, 'lon': 0.0, 'alt': 0, 'sats': 0, 'fix': 0}
 		
@@ -36,7 +36,7 @@ class GPS(object):
 						self._GPSPosition = j
 						if self._WhenNewPosition:
 							self._WhenNewPosition(self._GPSPosition)
-						GotLock = self._GPSPosition['fix'] >= 2
+						GotLock = self._GPSPosition['fix'] >= 1
 						if GotLock != self._GotLock:
 							self._GotLock = GotLock
 							if self._WhenLockChanged:
@@ -73,6 +73,30 @@ class GPS(object):
 			self.__doGPS(host, port)
 
 					
-	def Position(self):
+	def position(self):
 		return self._GPSPosition
+		
+	@property
+	def time(self):
+		return self._GPSPosition['time']
+			
+	@property
+	def lat(self):
+		return self._GPSPosition['lat']
+			
+	@property
+	def lon(self):
+		return self._GPSPosition['lon']
+			
+	@property
+	def alt(self):
+		return self._GPSPosition['alt']
+			
+	@property
+	def sats(self):
+		return self._GPSPosition['sats']
+			
+	@property
+	def fix(self):
+		return self._GPSPosition['fix']
 			

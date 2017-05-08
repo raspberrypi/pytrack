@@ -20,9 +20,9 @@ This causes the LEDs to both flash.
 
 ### Object Creation
 
-	PITS_LED()
+	leds = PITS_LED(when_new_position, when_lock_changed)
 
-WhenNewPosition and WhenLockChanged are callbacks (see below).
+when_new_position and when_lock_changed are callbacks (see below).
 
 ### Functions
 
@@ -30,7 +30,7 @@ WhenNewPosition and WhenLockChanged are callbacks (see below).
 
 Blinks both LEDs at 5Hz; used to indicate a catastrophic failure (e.g. tracker software cannot start)
 
-	GPS_LockStatus(HaveLock)
+	gps_lock_status(have_lock)
 
 Used to indicate if we have GPS lock or not.
 

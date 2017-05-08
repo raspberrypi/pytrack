@@ -13,5 +13,6 @@ mygps = GPS(WhenNewPosition=NewPosition, WhenLockChanged=LockChanged)
 print("loop ...")
 while 1:
 	time.sleep(1)
-	# print ("Position: ", mygps.Position())
+	print ("Position: ", mygps.position())
+	print ("Posn: ", mygps.time, mygps.lat, mygps.lon, mygps.alt, mygps.fix)
 

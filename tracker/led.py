@@ -23,8 +23,8 @@ class PITS_LED(object):
 		sleep(0.2)
 		self._LED_Warn.blink(0.2,0.2)
 		
-	def GPS_LockStatus(self, HaveLock):
-		if HaveLock:
+	def gps_lock_status(self, have_lock):
+		if have_lock:
 			# 3D gps lock achieved.  OK flashing; Warn off """
 			self._LED_OK.blink(0.5,0.5)
 			self._LED_Warn.off()

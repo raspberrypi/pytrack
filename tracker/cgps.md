@@ -33,7 +33,7 @@ Rather than poll the library (as in the above example), it's neater to provide c
     	print("Lock " + ("GAINED" if GotLock else "LOST"))
     
     print("Creating GPS object ...")
-    mygps = GPS(WhenNewPosition=NewPosition, WhenLockChanged=LockChanged)
+    mygps = GPS(when_new_position=NewPosition, when_lock_changed=LockChanged)
     	
     print("loop ...")
     while 1:
@@ -49,13 +49,40 @@ WhenNewPosition and WhenLockChanged are callbacks (see below).
 
 ### Functions
 
-	Position()
+	position()
 
-returns the current GPS position
+returns the current GPS position as a dictionary, containing the latest GPS data ('time', 'lat', 'lon', alt', 'sats', 'fix').  These values can be access individually using the properties below (see the descriptions for return types etc.).
+
+### Properties
+
+	time
+
+returns the current time, as a string, format 'hh:mm:ss'
+
+	lat
+
+returns the current latitude as a floating point number in decimal degrees
+
+	lon
+
+returns the current longitude as a floating point number in decimal degrees
+
+	alt
+
+returns the current altitude floating point number in metres
+
+	sats
+
+returns the current number of satellites used in the position fix.  At least 3 are needed for a 2D (horizontal) fix, and at least 4 for a 3D fix
+
+	fix
+
+returns the fix status (0 is no fix, 1 or more is a fix)
+
 
 ### Callbacks
 
-	WhenNewPosition(Position)
+	when_new_position(Position)
 
 This is called when a new position is received from the GPS (one per second).  "Position" is a dict:
 
@@ -63,9 +90,9 @@ This is called when a new position is received from the GPS (one per second).  "
 
 Note that all fields are zeroes until the GPS gains a lock.
 
-	WhenLockChanged(HaveLock)
+	when_lock_changed(have_lock)
 
-This is called when the GPS lock status changes.  "HaveLock" is True or False
+This is called when the GPS lock status changes.  "have_lock" is True or False
 
 ### Dependencies
 

@@ -8,9 +8,9 @@ This library uses the other modules (GPS, RTTY etc.) to build a complete tracker
 	
 	mytracker = Tracker();
 	
-	if mytracker.open(RTTYPayloadID='PYSKY', RTTYFrequency=434.250, RTTYBaudRate=50,
-						LoRaPayloadID='PYSKY2', LoRaFrequency=434.450, LoRaMode=1,
-						EnableCamera=True):
+	if mytracker.open(rtty_payload_id='PYSKY', rtty_frequency=434.250, rtty_baud_rate=50,
+						lora_channel=0, lora_payload_id='PYSKY2', lora_frequency=434.450, lora_mode=1,
+						enable_camera=True, image_packets_per_sentence=4):
 		mytracker.run()
 	else:
 		print("Tracker failed to open")
@@ -23,7 +23,7 @@ This library uses the other modules (GPS, RTTY etc.) to build a complete tracker
 	mytracker = Tracker()
 	
 	try:
-		if mytracker.open(ConfigFileName='pytrack.ini'):
+		if mytracker.open(config_filename='pytrack.ini'):
 			mytracker.run()
 		else:
 			print("Tracker failed to open")
@@ -47,6 +47,7 @@ where the INI file is like this (pytrack.ini):
 	
 	[General]
 	Camera = 1
+	ImagePacketsPerSentence = 4
 
 
 ## Reference

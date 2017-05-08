@@ -32,7 +32,14 @@ class RTTY(object):
 		
 	def _set_frequency(self, Frequency):
 		pio = pigpio.pi()
-		
+		if not pio.connected:
+			print()
+			print("*** Please start the PIGPIO daemon by typing the following command at the shell prompt:")
+			print()
+			print("    sudo pigpiod")
+			print()
+			quit()
+			
 		_mtx2comp = (Frequency+0.0015)/6.5
 		
 		_mtx2int = int(_mtx2comp)

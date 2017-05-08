@@ -18,7 +18,7 @@ Normally there should be one schedule per radio channel, plus an extra one for f
 
 	MyCam.take_photos()
 
-	Packet = self.camera.get_next_ssdv_packet("RTTY")
+	Packet = MyCam.get_next_ssdv_packet('RTTY')
 	
 
 ## Reference
