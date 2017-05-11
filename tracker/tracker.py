@@ -60,11 +60,11 @@ class Tracker(object):
 				Channel.SentenceCount += 1
 				sentence = build_sentence([PayloadID,
 										   Channel.SentenceCount,
-										   position['time'],
-										   "{:.5f}".format(position['lat']),
-										   "{:.5f}".format(position['lon']),
-										   int(position['alt']),
-										   position['sats'],
+										   position.time,
+										   "{:.5f}".format(position.lat),
+										   "{:.5f}".format(position.lon),
+										   int(position.alt),
+										   position.sats,
 										   "{:.1f}".format(InternalTemperature)])
 				print(sentence, end="")
 						
