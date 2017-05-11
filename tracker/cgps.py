@@ -6,6 +6,34 @@ import psutil
 from os import system
 from time import sleep
 
+class GPSPosition(object):
+	def __init__(self, when_new_position=None, when_lock_changed=None):
+		self.GPSPosition = None
+		
+	@property
+	def time(self):
+		return self.GPSPosition['time']
+
+	@property
+	def lat(self):
+		return self.GPSPosition['lat']
+			
+	@property
+	def lon(self):
+		return self.GPSPosition['lon']
+			
+	@property
+	def alt(self):
+		return self.GPSPosition['alt']
+			
+	@property
+	def sats(self):
+		return self.GPSPosition['sats']
+			
+	@property
+	def fix(self):
+		return self.GPSPosition['fix']
+		
 class GPS(object):
 	"""
 	Gets position from UBlox GPS receiver, using external program for s/w i2c to GPIO pins
@@ -18,6 +46,7 @@ class GPS(object):
 		self._WhenNewPosition = when_new_position
 		self._GotLock = False
 		self._GPSPosition = {'time': '00:00:00', 'lat': 0.0, 'lon': 0.0, 'alt': 0, 'sats': 0, 'fix': 0}
+		self._GPSPositionObject = GPSPosition()
 		
 		# Start thread to talk to GPS program
 		t = threading.Thread(target=self.__gps_thread)
@@ -74,7 +103,11 @@ class GPS(object):
 
 					
 	def position(self):
-		return self._GPSPosition
+		# return self._GPSPosition
+		# 		self._GPSPosition = {'time': '00:00:00', 'lat': 0.0, 'lon': 0.0, 'alt': 0, 'sats': 0, 'fix': 0}
+		self._GPSPositionObject.GPSPosition = self._GPSPosition
+		return self._GPSPositionObject
+
 		
 	@property
 	def time(self):

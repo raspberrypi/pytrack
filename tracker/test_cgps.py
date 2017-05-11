@@ -8,11 +8,11 @@ def LockChanged(GotLock):
 	print("Lock " + ("GAINED" if GotLock else "LOST"))
 
 print("Creating GPS object ...")
-mygps = GPS(WhenNewPosition=NewPosition, WhenLockChanged=LockChanged)
+mygps = GPS(when_new_position=NewPosition, when_lock_changed=LockChanged)
 	
 print("loop ...")
 while 1:
 	time.sleep(1)
-	print ("Position: ", mygps.position())
-	print ("Posn: ", mygps.time, mygps.lat, mygps.lon, mygps.alt, mygps.fix)
+	position = mygps.position()
+	print ("Posn: ", position.time, position.lat, position.lon, position.alt, position.fix)
 
