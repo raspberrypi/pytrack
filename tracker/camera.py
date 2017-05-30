@@ -18,6 +18,7 @@ def SelectBestImage(TargetFolder):
 	return Result
 
 def ConvertToSSDV(TargetFolder, FileName, Callsign, ImageNumber, SSDVFileName):
+	print('ssdv -e -c ' + Callsign + ' -i ' + str(ImageNumber) + ' ' + TargetFolder + FileName + ' ' + TargetFolder + SSDVFileName)
 	os.system('ssdv -e -c ' + Callsign + ' -i ' + str(ImageNumber) + ' ' + TargetFolder + FileName + ' ' + TargetFolder + SSDVFileName)
 
 def MoveFiles(Folder, SubFolder, Extension):
@@ -33,8 +34,9 @@ class SSDVCamera(object):
 	"""
 	
 	def __init__(self):
-		self.camera = picamera.PiCamera()
+		# self.camera = picamera.PiCamera()
 		self.Schedule = []
+		self.ImageCallback = None
 
 	def __find_item_for_channel(self, Channel):
 		for item in self.Schedule:
@@ -59,27 +61,38 @@ class SSDVCamera(object):
 				# Take photo if needed
 				if time.monotonic() > item['LastTime']:
 					item['LastTime'] = time.monotonic() + item['Period']
-					self.camera.resolution = (item['Width'], item['Height'])				
 					filename = item['TargetFolder'] +  time.strftime("%H_%M_%S", time.gmtime()) + '.jpg'
-					print("Taking image " + filename)
-					self.camera.capture(filename)
-					
+					if self.ImageCallback:
+						self.ImageCallback(filename, item['Width'], item['Height'])
+						if not os.path.isfile(filename):
+							print("User image callback did not produce the file " + filename)
+					else:
+						print("Taking image " + filename)
+						with picamera.PiCamera() as camera:
+							camera.resolution = (item['Width'], item['Height'])				
+							camera.start_preview()
+							time.sleep(2)
+							camera.capture(filename)
+							camera.stop_preview()					
+						
 				# Choose and convert yet?
-				if item['PacketIndex'] >= (item['PacketCount'] - 10):
-					# SSDV file alread exists ?
-					if not os.path.isfile(item['TargetFolder'] + item['NextSSDVFileName']):
-						# At least one jpg file waiting for us?
-						if len(fnmatch.filter(os.listdir(item['TargetFolder']), '*.jpg')) > 0:
-							# Select file to convert
-							FileName = SelectBestImage(item['TargetFolder'])
-							
-							if FileName != None:
-								# Convert it
-								item['ImageNumber'] += 1
-								ConvertToSSDV(item['TargetFolder'], FileName, item['Callsign'], item['ImageNumber'], item['NextSSDVFileName'])
+				if item['Callsign'] != '':
+					# Is a radio channel
+					if item['PacketIndex'] >= (item['PacketCount'] - 10):
+						# SSDV file alread exists ?
+						if not os.path.isfile(item['TargetFolder'] + item['NextSSDVFileName']):
+							# At least one jpg file waiting for us?
+							if len(fnmatch.filter(os.listdir(item['TargetFolder']), '*.jpg')) > 0:
+								# Select file to convert
+								FileName = SelectBestImage(item['TargetFolder'])
+								
+								if FileName != None:
+									# Convert it
+									item['ImageNumber'] += 1
+									ConvertToSSDV(item['TargetFolder'], FileName, item['Callsign'], item['ImageNumber'], item['NextSSDVFileName'])
 
-								# Move the jpg files so we don't use them again
-								MoveFiles(item['TargetFolder'], time.strftime("%Y_%m_%d", time.gmtime()), '.jpg')
+									# Move the jpg files so we don't use them again
+									MoveFiles(item['TargetFolder'], time.strftime("%Y_%m_%d", time.gmtime()), '.jpg')
 							
 			time.sleep(1)
 
@@ -95,7 +108,8 @@ class SSDVCamera(object):
 		# Check width/height.  0,0 means use full camera resolution
 		if (Width == 0) or (Height == 0):
 			try:
-				NewCamera = self.camera.revision == 'imx219'
+				with picamera.PiCamera() as camera:
+					NewCamera = self.camera.revision == 'imx219'
 			except:
 				NewCamera = False
 			if NewCamera:
@@ -121,9 +135,11 @@ class SSDVCamera(object):
 							  'SSDVFileName': 'ssdv.bin',
 							  'NextSSDVFileName': '_ext.bin',
 							  'File': None})
-		print("schedule is: ", self.Schedule)
+		# print("schedule is: ", self.Schedule)
 
-	def take_photos(self):
+	def take_photos(self, callback=None):
+		self.ImageCallback = callback
+		
 		t = threading.Thread(target=self.__photo_thread)
 		t.daemon = True
 		t.start()

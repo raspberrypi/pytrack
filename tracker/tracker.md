@@ -2,53 +2,26 @@
 
 This library uses the other modules (GPS, RTTY etc.) to build a complete tracker.
 
-## Parameter-based configuration (test_tracker.py)
-
+## Sample Usage (from pytrack.py)
+	
 	from tracker import *
-	
-	mytracker = Tracker();
-	
-	if mytracker.open(rtty_payload_id='PYSKY', rtty_frequency=434.250, rtty_baud_rate=50,
-						lora_channel=0, lora_payload_id='PYSKY2', lora_frequency=434.450, lora_mode=1,
-						enable_camera=True, image_packets_per_sentence=4):
-		mytracker.run()
-	else:
-		print("Tracker failed to open")
-	
-
-## File-based configuration (pytrack.py)
-
-	from tracker import *
+	from time import sleep
 	
 	mytracker = Tracker()
 	
-	try:
-		if mytracker.open(config_filename='pytrack.ini'):
-			mytracker.run()
-		else:
-			print("Tracker failed to open")
-	except RuntimeError as e:
-		print("Tracker failed to run correctly")
-		print(e)
-
-where the INI file is like this (pytrack.ini):
-
-	[RTTY]
-	ID = PYSKY
-	Frequency = 434.250
-	BaudRate = 50
-	Camera = 0
+	mytracker.set_rtty(payload_id='PIP1', frequency=434.100, baud_rate=300, image_packet_ratio=4)
+	mytracker.add_rtty_camera_schedule('images/RTTY', period=60, width=320, height=240)
 	
-	[LoRa]
-	Channel = 0
-	ID = PYSKY2
-	Frequency = 434.450
-	Mode = 1
+	mytracker.set_lora(payload_id='PIP2', channel=0, frequency=434.150, mode=1, image_packet_ratio=6)
+	mytracker.add_lora_camera_schedule('images/LORA', period=60, width=640, height=480)
 	
-	[General]
-	Camera = 1
-	ImagePacketsPerSentence = 4
-
+	mytracker.add_full_camera_schedule('images/FULL', period=60, width=0, height=0)
+	
+	mytracker.start()
+	
+	while True:
+		sleep(1)
+	
 
 ## Reference
 
@@ -58,26 +31,67 @@ where the INI file is like this (pytrack.ini):
 
 ### Functions
 
-	open(RTTYPayloadID='CHANGEME', RTTYFrequency=434.100, RTTYBaudRate=300,
-			LoRaChannel=0, LoRaPayloadID='CHANGEME2', LoRaFrequency=434.200, LoRaMode=1,
-			EnableCamera=True,
-			ConfigFileName=None):
+	set_rtty(payload_id='PIP1', frequency=434.100, baud_rate=300, image_packet_ratio=4)
 
-This loads and configures the GPS, RTTY and other modules, using the supplied parameters, or the supplied config file.  The supplied parameters are set first, and are used as defaults if ConfigFileName is specified.
+This sets the RTTY payload ID, radio frequency, baud rate (use 50 for telemetry only, 300 (faster) if you want to include image data), and ratio of image packets to telemetry packets.
 
-- To disable the RTTY channel, set Frequency or Baud Rate to zero or negative
-- To disable the LoRa channel, set Frequency to zero or negative, or Mode to negative
+If you don't want RTTY transmissions, just don't call this function.
 
-	run()
+Note that the RTTY stream will only include image packets if you add a camera schedule (see add_rtty_camera_schedule)
+
+	set_lora(payload_id='PIP2', channel=0, frequency=434.150, mode=1, image_packet_ratio=6)
+
+This sets the LoRa payload ID, radio frequency, mode (use 0 for telemetry-only; 1 (which is faster) if you want to include images), and ratio of image packets to telemetry packets.
+
+If you don't want RTTY transmissions, just don't call this function.
+
+Note that the RTTY stream will only include image packets if you add a camera schedule (see add_rtty_camera_schedule)
+
+
+	add_rtty_camera_schedule('images/RTTY', period=60, width=320, height=240)
+
+Adds an RTTY camera schedule.  For this example, an image of size 320x240 pixels will be taken every 60 seconds and the resulting file saved in the images/RTTY folder.
+
+Similar functions exist for the LoRa channel and for full-sized images:
+
+	add_lora_camera_schedule('images/LORA', period=60, width=640, height=480)
+	
+	add_full_camera_schedule('images/FULL', period=60, width=0, height=0)
+
+Note that specifying width and height of zero results in the camera taking full-sized images (exact resolution depends on the camera model), and that this is the default if those parameters are not included in the call.
+
+	start()
 
 Starts the tracker.  Specifically, it:
 
-1. Adds camera schedules for the RTTY and LoRa channels
-2. Adds a camera schedule for full-sized images
-3. Runs a loop sending rtty and lora packets as the transmitters become available
-4. In the loop, when a channel becomes available, a choice is made of sending a telemetry sentence or SSDV image packet.  1 telemetry sentence is sent for every 4 image packets
+1. Loads the LED module to control the LEDs according to GPS status
+2. Loads the temperature module to periodically measure temperature on the PITS board
+3. Loads the GPS module to get GPS positions
+4. Loads the camera module (if at least one camera schedule was added) to follow those schedules
+5. Creates a thread to send telemetry and camera image packets to RTTY and/or LoRa radios
 
-Note that for RTTY images, the baud rate needs to be 300; for LoRa images the mode needs to be 1.  If other selections are made then images are disabled for that channel.
+	set_sentence_callback(extra_telemetry)
 
+This specifies a function to be called whenever a telemetry sentence is built.  That function should return a string containing a comma-separated list of fields to append to the telemetry sentence.  e.g.:
 
+	def extra_telemetry():
+	    extra_value1 = 123.4
+	    extra_value2 = 42
+	    return "{:.1f}".format(extra_value1) + ',' + "{:.0f}".format(extra_value2)
+
+There is also a callback for images:
+
+	set_image_callback(take_photo)
+
+The callback function is called whenever an image is required.  **If you specify this callback, then it's up to you to provide code to take the photograph**.  Here's an example:
+
+	def take_photo(filename, width, height, gps):
+		with picamera.PiCamera() as camera:
+			camera.resolution = (width, height)
+			camera.start_preview()
+			time.sleep(2)
+			camera.capture(filename)
+			camera.stop_preview()	
+
+Use the gps object if you want to add a telemetry overlay, or use different image sizes at different altitudes, for example.
 

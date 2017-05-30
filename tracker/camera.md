@@ -45,9 +45,17 @@ where
 
 Clears the schedule.
 
-	take_photos()
+	take_photos(callback=None)
 
-Begins execution of the schedule.
+Begins execution of the schedule.  If the callback is specified, then this is called instead of taking a photo directly.  The callback is called with the following parameters:
+
+	filename - name of image file to create
+
+	width - desired image width in pixels (can be ignored)
+
+	height - desired image height in pixels (can be ignored)
+
+The callback is expected to take a photograph, using whatever method it likes, and with whatever manipulation it likes, creating the file specified by 'filename'.
 
 	get_next_ssdv_packet()
 
