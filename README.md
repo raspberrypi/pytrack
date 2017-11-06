@@ -17,53 +17,22 @@ This part of the software needs to be compiled and linked, with:
 
 ## Tracker
 
-This part of the software is Python 3.4, which needs to be installed on Jessie Lite:
+This part of the software is written in Python 3. It has some external dependencies which can be installed with:
 
-	sudo apt-get install python3 python3-pip
-	sudo pip3 install pyserial spidev picamera crcmod
-	sudo apt-get install python3-gpiozero
+	sudo apt-get install ssdv pigpio python3-setuptools python3-dev python3-gpiozero
 
-It also requires PIGPIO (used for RTTY frequency-setting) to be installed:
+The pytrack package and its Python dependencies, can be installed with:
 
-	cd
-	wget abyz.co.uk/rpi/pigpio/pigpio.zip
-	unzip pigpio.zip
-	cd PIGPIO
-	make
-	sudo make install
-
-and finally SSDV (used for imaging)
-
-	cd
-	git clone https://github.com/fsphil/ssdv.git
-	cd ssdv
-	sudo make install
+	sudo python3 setup.py install
 
 ## Raspbian Configuration
 
 Enable the following with raspi-config:
 
-	Enable Camera
-	Advanced Options --> Enable SPI (if you are going to use the LoRa board)
-	Advanced Options --> Enable I2C (if you will at some time use the BMP085 or BMP180)
-	Advanced Options --> Enable One-Wire support
-
-**Note that the I2C/SPI/OneWire settings have been moved to "Interfacing Options" in the latest Raspbian update.**
-
-
-Allow, the serial port to be used with:
-
-	sudo systemctl mask serial-getty@ttyAMA0.service
-
-That disables the serial port login.  We also need to stop the kernel from using the serial port, by editing the cmdline.txt file:
-
-	sudo nano /boot/cmdline.txt
-
-and remove the part that says
-
-	console=serial0,115200
-
-Save your changes.
+	Interfacing Options --> Camera --> Yes
+	Interfacing Options --> SPI --> Yes
+	Interfacing Options --> Serial --> No (enable login) --> Yes (enable hardware) 
+	Interfacing Options --> 1-Wire --> Yes
 
 
 ## Usage
@@ -75,20 +44,14 @@ Before running the tracker, it is necessary to start the pigpio daemon, with:
 The tracker program is started with:
 
 	cd
-	cd pytrack/tracker
+	cd pytrack/pytrack
 	python3 pytrack.py
 
 ## Auto Startup
 
-Add the following 3 lines bold to the file **/etc/rc.local**, before the **exit 0** line:
+Add the following line to the file **/etc/rc.local**, before the **exit 0** line:
 
-	sudo pigpiod
-
-	cd /home/pi/pytrack/tracker
-
-	python3 pytrack.py
-
-	exit 0
+	/home/pi/pytrack/startup &
 
 ## Test programs
 

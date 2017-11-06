@@ -1,0 +1,5 @@
+crcmod
+picamera
+pigpio
+psutil
+pyserial

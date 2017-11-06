@@ -1,9 +1,0 @@
-#!/bin/bash
-
-
-echo "PyTrack - Python Library Installation"
-echo "====================================="
-
-echo -e "\n\nInstalling libraries..."
-sudo pip3 install pyserial spidev picamera crcmod
-
