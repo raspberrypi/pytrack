@@ -1,4 +1,4 @@
-from tracker import *
+from pytrack.tracker import *
 from time import sleep
 
 def extra_telemetry():

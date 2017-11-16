@@ -1,11 +1,10 @@
-from cgps import *
-from led import *
-from rtty import *
-from lora import *
-from camera import *
-from telemetry import *
-from temperature import *
-from camera import SSDVCamera
+from pytrack.cgps import *
+from pytrack.led import *
+from pytrack.rtty import *
+from pytrack.lora import *
+from pytrack.camera import *
+from pytrack.telemetry import *
+from pytrack.temperature import *
 import threading
 import configparser
 

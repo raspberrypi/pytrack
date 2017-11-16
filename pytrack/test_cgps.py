@@ -1,4 +1,4 @@
-from cgps import *
+from pytrack.cgps import *
 import time
 
 def NewPosition(Position):

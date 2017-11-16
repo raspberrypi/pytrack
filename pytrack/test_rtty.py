@@ -1,4 +1,4 @@
-from rtty import *
+from pytrack.rtty import *
 from time import sleep
 
 global SentOK

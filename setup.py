@@ -1,6 +1,13 @@
 # from distutils.core import setup
 # from setuptools import setup, find_packages
+import subprocess
 from setuptools import setup
+from setuptools.command.install import install
+
+class CustomInstall(install):
+    def run(self):
+        subprocess.check_call('make', cwd='./gps/', shell=True)
+        super().run()
 
 setup(
     name='pytrack',
@@ -11,6 +18,10 @@ setup(
     author='Dave Akerman',
     author_email='dave@sccs.co.uk',
     description='HAB Tracker for RTTY and LoRa',
-    install_requires=['psutil','pyserial','pigpio','picamera','crcmod']
+    scripts=[
+        'pytrack/pytrack',
+    ],
+    install_requires=['psutil','pyserial','pigpio','picamera','crcmod'],
+    cmdclass={'install': CustomInstall}
 )
 

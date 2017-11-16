@@ -79,7 +79,7 @@ class GPS(object):
 		return "gps" in [psutil.Process(i).name() for i in psutil.pids()]
 		
 	def _StartServer(self):
-		system("sudo ../gps/gps > /dev/null &")
+		system("pytrack-gps > /dev/null &")
 		sleep(1)
 		
 	def __doGPS(self, host, port):

@@ -1,0 +1,22 @@
+Source: pytrack
+Section: hamradio
+Priority: optional
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools
+Standards-Version: 3.9.8
+Homepage: http://github.com/raspberrypi/pytrack
+X-Python3-Version: >= 3.2
+
+Package: python3-pytrack
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, ssdv, pytrack-gps, pigpio
+Description: HAB Receiver for RTTY and LoRa (Python 3)
+ .
+ This package installs the library for Python 3.
+
+Package: pytrack-gps
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, wiringpi
+Description: Presents the Ublox  6/7/8 GPS receiver as a network socket
+ Provides a network socket to comminicate with Ublox GPS recievers through
+ bitbanged I2C

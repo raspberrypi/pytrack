@@ -1,11 +1,2 @@
 *.o
-*.jpg
-*.bin
-__pycache__
-images
-*.pyc
-
-build/
-dist/
 *.egg-info/
-*.egg
