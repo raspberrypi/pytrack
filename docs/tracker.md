@@ -4,24 +4,24 @@ This library uses the other modules (GPS, RTTY etc.) to build a complete tracker
 
 ## Sample Usage (from pytrack.py)
 
-    ```
-	from pytrack.tracker import *
-	from time import sleep
+    ```python
+    from pytrack.tracker import *
+    from time import sleep
 
-	mytracker = Tracker()
+    mytracker = Tracker()
 
-	mytracker.set_rtty(payload_id='PIP1', frequency=434.100, baud_rate=300, image_packet_ratio=4)
-	mytracker.add_rtty_camera_schedule('images/RTTY', period=60, width=320, height=240)
+    mytracker.set_rtty(payload_id='PIP1', frequency=434.100, baud_rate=300, image_packet_ratio=4)
+    mytracker.add_rtty_camera_schedule('images/RTTY', period=60, width=320, height=240)
+    
+    mytracker.set_lora(payload_id='PIP2', channel=0, frequency=434.150, mode=1, image_packet_ratio=6)
+    mytracker.add_lora_camera_schedule('images/LORA', period=60, width=640, height=480)
+    
+    mytracker.add_full_camera_schedule('images/FULL', period=60, width=0, height=0)
 
-	mytracker.set_lora(payload_id='PIP2', channel=0, frequency=434.150, mode=1, image_packet_ratio=6)
-	mytracker.add_lora_camera_schedule('images/LORA', period=60, width=640, height=480)
-
-	mytracker.add_full_camera_schedule('images/FULL', period=60, width=0, height=0)
-
-	mytracker.start()
-
-	while True:
-		sleep(1)
+    mytracker.start()
+    
+    while True:
+        sleep(1)
     ```
 
 ## Reference
