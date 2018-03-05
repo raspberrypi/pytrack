@@ -4,52 +4,61 @@ This library provides access to the PITS+ / PITS Zero GPS module.
 
 ## Basic Usage
 
-    from pytrack.cgps import *
-	from time import sleep
+```python
+from pytrack.cgps import *
+from time import sleep
 
-    mygps = GPS()
+  mygps = GPS()
 
-    while 1:
-    	time.sleep(1)
-    	print ("Position: ", mygps.Position())
+  while 1:
+  	time.sleep(1)
+  	print ("Position: ", mygps.Position())
+```
 
 When the GPS object is created, it starts to care of all the GPS communications.  The current time and position can then be retrieved as required, however note that depending on the position of the GPS aerial, it can take some time before this information is available.
 
 The time and position are returned as a dict, for example
 
-	 {'lat': 51.95014, 'alt': 171, 'sats': 12, 'lon': -2.54445, 'time': '10:42:35', 'fix': 2}
+```python
+{'lat': 51.95014, 'alt': 171, 'sats': 12, 'lon': -2.54445, 'time': '10:42:35', 'fix': 2}
+ ```
 
 ## Callbacks
 
 Rather than poll the library (as in the above example), it's neater to provide callback functions so that the library informs us when a new position has arrived.
 
-    from cgps import *
-    import time
+```python
+from cgps import *
+import time
 
-    def NewPosition(Position):
-    	print("Callback: ", Position)
+def NewPosition(Position):
+	print("Callback: ", Position)
 
-    def LockChanged(GotLock):
-    	print("Lock " + ("GAINED" if GotLock else "LOST"))
+def LockChanged(GotLock):
+	print("Lock " + ("GAINED" if GotLock else "LOST"))
 
-    print("Creating GPS object ...")
-    mygps = GPS(when_new_position=NewPosition, when_lock_changed=LockChanged)
+print("Creating GPS object ...")
+mygps = GPS(when_new_position=NewPosition, when_lock_changed=LockChanged)
 
-    print("loop ...")
-    while 1:
-    	time.sleep(1)
+print("loop ...")
+while 1:
+	time.sleep(1)
+```
 
 ## Reference
 
 ### Object Creation
 
-	GPS(WhenNewPosition=None, WhenLockChanged=None)
+```python
+GPS(WhenNewPosition=None, WhenLockChanged=None)
+```
 
 WhenNewPosition and WhenLockChanged are callbacks (see below).
 
 ### Functions
 
-	position()
+
+  position()
 
 returns the current GPS position as a dictionary, containing the latest GPS data ('time', 'lat', 'lon', alt', 'sats', 'fix').  These values can be access individually using the properties below (see the descriptions for return types etc.).
 
@@ -82,7 +91,9 @@ returns the fix status (0 is no fix, 1 or more is a fix)
 
 ### Callbacks
 
-	when_new_position(Position)
+```python
+when_new_position(Position)
+```
 
 This is called when a new position is received from the GPS (one per second).  "Position" is a dict:
 

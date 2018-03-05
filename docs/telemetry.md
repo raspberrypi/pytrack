@@ -4,9 +4,11 @@ This file contains some functions useful for building UKHAS-compatible sentences
 
 ## Basic Usage
 
-	from pytrack.telemetry import *
+```Python
+from pytrack.telemetry import *
 
-	sentence = build_sentence(values)
+sentence = build_sentence(values)
+```
 
 where **values** is a **list** containing all fields to be combined into a sentence.  At a minimum this should have, at the start of the list and in this sequence, the following:
 
