@@ -4,7 +4,7 @@ This library uses the other modules (GPS, RTTY etc.) to build a complete tracker
 
 ## Sample Usage (from pytrack.py)
 
-    ```python
+
     from pytrack.tracker import *
     from time import sleep
 
@@ -22,11 +22,11 @@ This library uses the other modules (GPS, RTTY etc.) to build a complete tracker
     
     while True:
         sleep(1)
-    ```
 
 ## Reference
 
 ### Object Creation
+
 
 	`Tracker()`
 
