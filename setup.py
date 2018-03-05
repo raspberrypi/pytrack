@@ -21,7 +21,8 @@ setup(
     scripts=[
         'pytrack/pytrack',
     ],
-    install_requires=['psutil','pyserial','pigpio','picamera','crcmod'],
+    install_requires=['psutil','pyserial','pigpio','picamera','crcmod',
+        'gpiozero'],
     cmdclass={'install': CustomInstall}
 )
 
