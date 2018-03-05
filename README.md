@@ -64,10 +64,10 @@ To run the tracker type `python3 your_file_name.py`
 
 Add the following lines to the file **/etc/rc.local**, before the **exit 0** line:
 
-  ```
-  pigpiod
-	su pi -c "python3 /home/pi/your_file_name.py" &
-	```
+```bash
+pigpiod
+su pi -c "python3 /home/pi/your_file_name.py" &
+```
 
 ## Documentation
 
