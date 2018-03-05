@@ -1,0 +1,7 @@
+*.log
+*.debhelper
+*.substvars
+python3-pytrack/
+pytrack-gps/
+debhelper-build-stamp
+files

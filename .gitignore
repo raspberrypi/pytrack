@@ -1,2 +1,4 @@
 *.o
 *.egg-info/
+build/
+.pybuild/
