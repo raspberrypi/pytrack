@@ -49,9 +49,9 @@ set_lora(payload_id='PIP2', channel=0, frequency=434.150, mode=1, image_packet_r
 
 This sets the LoRa payload ID, radio frequency, mode (use 0 for telemetry-only; 1 (which is faster) if you want to include images), and ratio of image packets to telemetry packets.
 
-If you don't want RTTY transmissions, just don't call this function.
+If you don't want LoRa transmissions, just don't call this function.
 
-Note that the RTTY stream will only include image packets if you add a camera schedule (see add_rtty_camera_schedule)
+Note that the LoRa stream will only include image packets if you add a camera schedule (see add_lora_camera_schedule)
 
 ```python
 add_rtty_camera_schedule('images/RTTY', period=60, width=320, height=240)

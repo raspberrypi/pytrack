@@ -81,11 +81,22 @@ LNA_OFF_GAIN               = 0x00
 LNA_LOW_GAIN               = 0xC0  # 1100 0000
 
 class LoRa(object):
-	"""
-	Radio - LoRa.  Single channel - if you want to use more channels then create more objects.
-	"""
-	
 	def __init__(self, Channel=0, Frequency=434.250, Mode=1, DIO0=0, DIO5=0):
+		"""
+		This library provides access to one LoRa (Long Range Radio) module on the PITS Zero board or the add-on board for the PITS+ board.
+		The LoRa object is **non-blocking**.  The calling code can either poll to find out when the transmission has completed, or can be notified via a callback.
+		
+		Channel should match the number of the position occupied by the LoRa module (as labelled on the LoRa board).
+
+		The frequency is in MHz and should be selected carefully:
+		- If you are using RTTY also, it should be at least 25kHz (0.025MHz) away from the RTTY frequency
+		- It should be different to that used by any other HAB flights that are airborne at the same time and within 400 miles (600km)
+		- It should be legal in your country (for the UK see [https://www.ofcom.org.uk/__data/assets/pdf_file/0028/84970/ir_2030-june2014.pdf](https://www.ofcom.org.uk/__data/assets/pdf_file/0028/84970/ir_2030-june2014.pdf "IR2030"))
+
+		Mode should be either 0 (best if you are not sending image data over LoRa) or 1 (best if you are).
+
+		When setting up your receiver, use matching settings.
+		"""
 		self.SentenceCount = 0
 		self.ImagePacketCount = 0
 		self.sending = False
@@ -149,6 +160,7 @@ class LoRa(object):
 				pass
 		
 	def SetLoRaFrequency(self, Frequency):
+		"""Sets the frequency in MHz."""
 		self.__setMode(RF98_MODE_STANDBY)
 		self.__setMode(RF98_MODE_SLEEP)
 		self.__writeRegister(REG_OPMODE, 0x80);
@@ -174,6 +186,12 @@ class LoRa(object):
 		self.__writeRegister(REG_RX_NB_BYTES, self.PayloadLength)
 
 	def SetStandardLoRaParameters(self, Mode):
+		"""
+		Sets the various LoRa parameters to one of the following standard combinations:
+		- 0: EXPLICIT_MODE, ERROR_CODING_4_8, BANDWIDTH_20K8, SPREADING_11, LDO On
+		- 1: IMPLICIT_MODE, ERROR_CODING_4_5, BANDWIDTH_20K8, SPREADING_6, LDO Off
+		- 2: EXPLICIT_MODE, ERROR_CODING_4_8, BANDWIDTH_62K5, SPREADING_8, LOD Off
+		"""
 		if Mode == 0:
 			self.SetLoRaParameters(EXPLICIT_MODE, ERROR_CODING_4_8, BANDWIDTH_20K8, SPREADING_11, True)
 		elif Mode == 1:
@@ -191,9 +209,15 @@ class LoRa(object):
 			self.CallbackWhenSent()
 
 	def is_sending(self):
+		"""Returns True if LoRa module is still sending the latest packet"""
 		return self.sending
 		
 	def send_packet(self, packet, callback=None):
+		"""
+		Sends a binary packet which should be a bytes object.  Normally this would be a 256-byte SSDV packet (see the camera.py module).
+
+		The callback, if used, is called when the packet has been completely set and the RTTY object is ready to accept more data to transmit.
+		"""
 		self.CallbackWhenSent = callback
 		self.sending = True
 		
@@ -217,4 +241,9 @@ class LoRa(object):
 		t.start()
 
 	def send_text(self, sentence, callback=None):
+		"""
+		Sends a text string sentence.  Normally this would be a UKHAS-compatible HAB telemetry sentence but it can be anything.  See the telemetry.py module for how to create compliant telemetry sentences.
+		
+		callback is as for send_packet()
+		"""
 		self.send_packet(sentence.encode(), callback)

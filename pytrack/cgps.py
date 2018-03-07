@@ -37,7 +37,7 @@ class GPSPosition(object):
 class GPS(object):
 	"""
 	Gets position from UBlox GPS receiver, using external program for s/w i2c to GPIO pins
-	Provides callbacks on change of state (e.g. lock attained, lock lost)
+	Provides callbacks on change of state (e.g. lock attained, lock lost, new position received)
 	"""
 	PortOpen = False
 	
@@ -103,33 +103,40 @@ class GPS(object):
 
 					
 	def position(self):
-		# return self._GPSPosition
-		# 		self._GPSPosition = {'time': '00:00:00', 'lat': 0.0, 'lon': 0.0, 'alt': 0, 'sats': 0, 'fix': 0}
+		"""returns the current GPS position as a dictionary, containing the latest GPS data ('time', 'lat', 'lon', alt', 'sats', 'fix').
+		These values can be access individually using the properties below (see the descriptions for return types etc.).
+		"""
 		self._GPSPositionObject.GPSPosition = self._GPSPosition
 		return self._GPSPositionObject
 
 		
 	@property
 	def time(self):
+		"""Returns latest GPS time (UTC)"""
 		return self._GPSPosition['time']
 			
 	@property
 	def lat(self):
+		"""Returns latest GPS latitude"""
 		return self._GPSPosition['lat']
 			
 	@property
 	def lon(self):
+		"""Returns latest GPS longitude"""
 		return self._GPSPosition['lon']
 			
 	@property
 	def alt(self):
+		"""Returns latest GPS altitude"""
 		return self._GPSPosition['alt']
 			
 	@property
 	def sats(self):
+		"""Returns latest GPS satellite count.  Needs at least 4 satellites for a 3D position"""
 		return self._GPSPosition['sats']
 			
 	@property
 	def fix(self):
+		"""Returns a number >=1 for a fix, or 0 for no fix"""
 		return self._GPSPosition['fix']
 			
