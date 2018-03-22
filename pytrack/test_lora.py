@@ -1,4 +1,4 @@
-from pytrack.lora import *
+from pytrack import LoRa
 import time
 
 print("Create LoRa object")

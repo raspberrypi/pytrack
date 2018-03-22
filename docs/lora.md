@@ -4,7 +4,7 @@ This library provides access to one LoRa (Long Range Radio) module on the PITS Z
 
 ## Basic Usage
 
-	from pytrack.lora import *
+	from pytrack import LoRa
 	import time
 
 	print("Create LoRa object")

@@ -8,7 +8,8 @@ Normally there should be one schedule per radio channel, plus an extra one for f
 
 ## Sample Usage
 
-	from pytrack.camera import *
+  ```python
+	from pytrack import SSDVCamera
 
 	MyCam = SSDVCamera()
 
@@ -19,7 +20,7 @@ Normally there should be one schedule per radio channel, plus an extra one for f
 	MyCam.take_photos()
 
 	Packet = MyCam.get_next_ssdv_packet('RTTY')
-
+  ```
 
 ## Reference
 
@@ -29,7 +30,9 @@ Normally there should be one schedule per radio channel, plus an extra one for f
 
 ### Functions
 
+	```python
 	add_schedule(Channel, Callsign, TargetFolder, Period, Width, Height, VFlip=False, HFlip=False)
+  ```
 
 where
 
@@ -41,11 +44,15 @@ where
 - VFlip and HFlip can be used to correct images if the camera is not physically oriented correctly.
 
 
+```python
 	clear_schedule()
+```
 
 Clears the schedule.
 
+```python
 	take_photos(callback=None)
+```
 
 Begins execution of the schedule.  If the callback is specified, then this is called instead of taking a photo directly.  The callback is called with the following parameters:
 
@@ -57,7 +64,9 @@ Begins execution of the schedule.  If the callback is specified, then this is ca
 
 The callback is expected to take a photograph, using whatever method it likes, and with whatever manipulation it likes, creating the file specified by 'filename'.
 
+```python
 	get_next_ssdv_packet()
+```
 
 Retrieves the next SSDV packet for a particular channel.  If there is none available (i.e. no photograph has been taken and converted yet for this channel) then **None** is returned.  Returned packets contain a complete (256-byte) SSDV packet.
 

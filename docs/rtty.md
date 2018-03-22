@@ -4,7 +4,7 @@ This library provides access to the PITS+ / PITS Zero RTTY (Radio TeleTYpe) modu
 
 ## Basic Usage
 
-	from pytrack.rtty import *
+	from pytrack import RTTY
 	from time import sleep
 
 	print("Create RTTY object")

@@ -1,4 +1,4 @@
-from pytrack.led import *
+from pytrack import PITS_LED
 from signal import pause
 
 print("Creating LED object ...")

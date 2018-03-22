@@ -5,7 +5,7 @@ This file contains some functions useful for building UKHAS-compatible sentences
 ## Basic Usage
 
 ```Python
-from pytrack.telemetry import *
+from pytrack import build_sentence
 
 sentence = build_sentence(values)
 ```

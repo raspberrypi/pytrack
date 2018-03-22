@@ -5,7 +5,7 @@ This library provides access to the PITS+ / PITS Zero GPS module.
 ## Basic Usage
 
 ```python
-from pytrack.cgps import *
+from pytrack import GPS
 from time import sleep
 
   mygps = GPS()

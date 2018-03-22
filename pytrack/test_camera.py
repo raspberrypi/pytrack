@@ -1,4 +1,4 @@
-from pytrack.camera import SSDVCamera
+from pytrack import SSDVCamera
 from time import sleep
 
 camera = SSDVCamera()

@@ -5,7 +5,7 @@ This library uses the other modules (GPS, RTTY etc.) to build a complete tracker
 ## Sample Usage (from pytrack.py)
 
 ```python
-from pytrack.tracker import *
+from pytrack import Tracker
 from time import sleep
 
 mytracker = Tracker()
