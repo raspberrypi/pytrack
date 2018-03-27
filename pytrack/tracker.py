@@ -1,10 +1,12 @@
-from pytrack.cgps import *
-from pytrack.led import *
-from pytrack.rtty import *
-from pytrack.lora import *
-from pytrack.camera import *
-from pytrack.telemetry import *
-from pytrack.temperature import *
+from .rtty import *
+from .lora import *
+from .led import *
+from .temperature import *
+from .cgps import *
+from .camera import *
+from .telemetry import *
+
+from time import sleep
 import threading
 import configparser
 
@@ -78,10 +80,10 @@ class Tracker(object):
 		self.RTTYImagePacketsPerSentence = image_packet_ratio
 
 		self.rtty = RTTY(self.RTTYFrequency, self.RTTYBaudRate)
-		
+
 	def set_lora(self, payload_id='CHANGEME', channel=0, frequency=424.250, mode=1, camera=False, image_packet_ratio=6):
 		"""
-		
+
 		This sets the LoRa payload ID, radio frequency, mode (use 0 for telemetry-only; 1 (which is faster) if you want to include images), and ratio of image packets to telemetry packets.
 
 		If you don't want LoRa transmissions, just don't call this function.
@@ -107,7 +109,7 @@ class Tracker(object):
 			self.camera.add_schedule('RTTY', self.RTTYPayloadID, path, period, width, height)
 		else:
 			print("RTTY camera schedule not added - baud rate too low (300 minimum needed")
-	
+
 	def add_lora_camera_schedule(self, path='images/LORA', period=60, width=640, height=480):
 		"""
 		Adds a LoRa camera schedule.  The default parameters are for an image of size 640x480 pixels every 60 seconds and the resulting file saved in the images/LORA folder.
