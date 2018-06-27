@@ -7,7 +7,7 @@ The pytrack package and its Python dependencies, can be installed on a Raspberry
 
 	```
 	sudo apt update
-	sudo apt install pytrack
+	sudo apt install python3-pytrack
 	```
 ## Raspbian Configuration
 
