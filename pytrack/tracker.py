@@ -81,7 +81,7 @@ class Tracker(object):
 
 		self.rtty = RTTY(self.RTTYFrequency, self.RTTYBaudRate)
 
-	def set_lora(self, payload_id='CHANGEME', channel=0, frequency=424.250, mode=1, camera=False, image_packet_ratio=6):
+	def set_lora(self, payload_id='CHANGEME', channel=0, frequency=424.250, mode=1, DIO0=0, camera=False, image_packet_ratio=6):
 		"""
 
 		This sets the LoRa payload ID, radio frequency, mode (use 0 for telemetry-only; 1 (which is faster) if you want to include images), and ratio of image packets to telemetry packets.
@@ -96,7 +96,7 @@ class Tracker(object):
 		self.LoRaMode = mode
 		self.LORAImagePacketsPerSentence = image_packet_ratio
 
-		self.lora = LoRa(self.LoRaChannel, self.LoRaFrequency, self.LoRaMode)
+		self.lora = LoRa(Channel=self.LoRaChannel, Frequency=self.LoRaFrequency, Mode=self.LoRaMode, DIO0=DIO0)
 
 	def add_rtty_camera_schedule(self, path='images/RTTY', period=60, width=320, height=240):
 		"""

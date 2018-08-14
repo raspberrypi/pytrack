@@ -23,9 +23,9 @@ The LoRa object is **non-blocking**.  The calling code can either poll to find o
 
 ### Object Creation
 
-	LoRa(Channel=0, Frequency=434.450, Mode=1)
+	LoRa(Channel=0, Frequency=434.450, Mode=1, DIO0=0)
 
-**Channel** should match the number of the position occupied by the LoRa module (as labelled on the LoRa board).
+**Channel** is the SPI channel that the LoRa device is connected to (0 is for devices connected to the Pi CE0 pin, and 1 for the CE1 pin).  For the Uputronics board there are 2 positions labelled CE0 and CE1, so use 0 or 1 depending on which device you want to use; for other boards check their documentation.
 
 The **frequency** is in MHz and should be selected carefully:
 
@@ -36,6 +36,9 @@ The **frequency** is in MHz and should be selected carefully:
 **Mode** should be either **0** (best if you are not sending image data over LoRa) or **1** (best if you are).
 
 When setting up your receiver, use matching settings.
+
+**DIO0** is the BCM pin that the DIO0 pin of the LoRa device connects to.  Setting this to 0 (default) causes the LoRa code to choose a value that matches the Uputronics LoRa HAT; for other boards you should set the value explicitly (again, check the board's documentation).
+
 
 ### Primary Functions
 

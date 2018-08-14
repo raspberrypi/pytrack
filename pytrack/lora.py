@@ -81,7 +81,7 @@ LNA_OFF_GAIN               = 0x00
 LNA_LOW_GAIN               = 0xC0  # 1100 0000
 
 class LoRa(object):
-	def __init__(self, Channel=0, Frequency=434.250, Mode=1, DIO0=0, DIO5=0):
+	def __init__(self, Channel=0, Frequency=434.250, Mode=1, DIO0=0):
 		"""
 		This library provides access to one LoRa (Long Range Radio) module on the PITS Zero board or the add-on board for the PITS+ board.
 		The LoRa object is **non-blocking**.  The calling code can either poll to find out when the transmission has completed, or can be notified via a callback.
@@ -101,23 +101,18 @@ class LoRa(object):
 		self.ImagePacketCount = 0
 		self.sending = False
 		self.CallbackWhenSent = None
-		
+
+		# Set DIO0 (used for TxDone) automatically if it hasn't already been set.  The values below are for the Uputronics boards; for anything else DIO0 should be passed explicitly.
 		if DIO0 == 0:
 			if Channel == 1:
 				DIO0 = 16
 			else:
 				DIO0 = 25
 
-		if DIO5 == 0:
-			if Channel == 1:
-				DIO5 = 12
-			else:
-				DIO5 = 24
 				
 		self.Channel = Channel
 		self.Frequency = Frequency
 		self.DIO0 = InputDevice(DIO0)
-		self.DIO5 = InputDevice(DIO5)
 		self.currentMode = 0x81;
 		self.Power = PA_MAX_UK
 		self.spi = spidev.SpiDev()
@@ -153,12 +148,6 @@ class LoRa(object):
 			self.__writeRegister(REG_OPMODE, newMode)
 			self.currentMode = newMode
   
-			if newMode != RF98_MODE_SLEEP:
-				#while not self.DIO5.is_active:
-				#	pass
-				# time.sleep(0.1)
-				pass
-		
 	def SetLoRaFrequency(self, Frequency):
 		"""Sets the frequency in MHz."""
 		self.__setMode(RF98_MODE_STANDBY)
@@ -200,11 +189,16 @@ class LoRa(object):
 			self.SetLoRaParameters(EXPLICIT_MODE, ERROR_CODING_4_8, BANDWIDTH_62K5, SPREADING_8, False)
 		
 	def _send_thread(self):
-		# wait for DIO0
-		# while not self.DIO0.is_active:
-		while self.DIO5.is_active:
+		# wait for TxSent (packet sent flag) on DIO0
+		while not self.DIO0.is_active:			
 			time.sleep(0.01)
+			
+		# Reset TxSent thus resetting DIO0
+		self.__writeRegister(REG_IRQ_FLAGS, 0x08); 
+		
 		self.sending = False
+		
+		# Callback if set
 		if self.CallbackWhenSent:
 			self.CallbackWhenSent()
 
