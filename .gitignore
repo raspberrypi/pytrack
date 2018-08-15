@@ -3,3 +3,4 @@
 build/
 .pybuild/
 gps/pytrack-gps
+*.pyc
