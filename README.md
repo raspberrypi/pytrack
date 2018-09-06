@@ -5,10 +5,11 @@ HAB tracker software for the Pi In The Sky board and LoRa expansion board.
 
 The pytrack package and its Python dependencies, can be installed on a Raspberry Pi with:
 
-	```
-	sudo apt update
-	sudo apt install pytrack
-	```
+  ```bash
+  sudo apt update
+  sudo apt install python3-pytrack
+  ```
+
 ## Raspbian Configuration
 
 Enable the following with raspi-config:

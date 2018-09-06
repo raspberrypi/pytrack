@@ -10,6 +10,22 @@ class RTTY(object):
 	"""
 	
 	def __init__(self, frequency=434.250, baudrate=50):
+		"""
+		The frequency is in MHz and should be selected carefully:
+
+		- If you are using LoRa also, it should be at least 25kHz (0.025MHz) away from the LoRa frequency
+		- It should be different to that used by any other HAB flights that are airborne at the same time and within 400 miles (600km)
+		- It should be legal in your country (for the UK see [https://www.ofcom.org.uk/__data/assets/pdf_file/0028/84970/ir_2030-june2014.pdf](https://www.ofcom.org.uk/__data/assets/pdf_file/0028/84970/ir_2030-june2014.pdf "IR2030"))
+
+		The baudrate should be either 50 (best if you are not sending image data over RTTY) or 300 (best if you are).
+
+		When setting up your receiver, use the following settings:
+
+		- 50 or 300 baud
+		- 7 data bits (if using 50 baud) or 8 (300 baud)
+		- no parity
+		- 2 stop bits
+		"""
 		self.SentenceCount = 0
 		self.ImagePacketCount = 0
 		self.sending = False
@@ -73,6 +89,11 @@ class RTTY(object):
 		return self.sending
 		
 	def send_packet(self, packet, callback=None):
+		"""
+		Sends a binary packet packet which should be a bytes object.  Normally this would be a 256-byte SSDV packet (see the camera.py module).
+
+		callback, if used, is called when the packet has been completely set and the RTTY object is ready to accept more data to transmit.		
+		"""
 		self.CallbackWhenSent = callback
 		self.ntx2.on()
 		try:
@@ -86,4 +107,9 @@ class RTTY(object):
 			raise RuntimeError('Failed to open RTTY serial port\nCheck that port is present and has been enabled')
 
 	def send_text(self, sentence, callback=None):
+		"""
+		Sends a text string sentence.  Normally this would be a UKHAS-compatible HAB telemetry sentence but it can be anything.  See the telemetry.py module for how to create compliant telemetry sentences.
+
+		callback is as for send_packet()
+		"""
 		self.send_packet(sentence.encode(), callback)

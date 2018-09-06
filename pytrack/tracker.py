@@ -1,12 +1,12 @@
-from pytrack import 
+from .rtty import *
+from .lora import *
+from .led import *
+from .temperature import *
+from .cgps import *
+from .camera import *
+from .telemetry import *
 
-.cgps import *
-from pytrack.led import *
-from pytrack.rtty import *
-from pytrack.lora import *
-from pytrack.camera import *
-from pytrack.telemetry import *
-from pytrack.temperature import *
+from time import sleep
 import threading
 import configparser
 
@@ -14,6 +14,9 @@ class Tracker(object):
 	# HAB Radio/GPS Tracker
 
 	def __init__(self):
+		"""
+		This library uses the other modules (CGPS, RTTY etc.) to build a complete tracker.
+		"""
 		self.camera = None
 		self.lora = None
 		self.rtty = None
@@ -66,6 +69,11 @@ class Tracker(object):
 				Channel.send_packet(Packet[1:])
 
 	def set_rtty(self, payload_id='CHANGEME', frequency=434.200, baud_rate=50, image_packet_ratio=4):
+		"""
+		This sets the RTTY payload ID, radio frequency, baud rate (use 50 for telemetry only, 300 (faster) if you want to include image data), and ratio of image packets to telemetry packets.
+
+		If you don't want RTTY transmissions, just don't call this function.
+		"""
 		self.RTTYPayloadID = payload_id
 		self.RTTYFrequency = frequency
 		self.RTTYBaudRate = baud_rate
@@ -73,16 +81,27 @@ class Tracker(object):
 
 		self.rtty = RTTY(self.RTTYFrequency, self.RTTYBaudRate)
 
-	def set_lora(self, payload_id='CHANGEME', channel=0, frequency=424.250, mode=1, camera=False, image_packet_ratio=6):
+	def set_lora(self, payload_id='CHANGEME', channel=0, frequency=424.250, mode=1, DIO0=0, camera=False, image_packet_ratio=6):
+		"""
+
+		This sets the LoRa payload ID, radio frequency, mode (use 0 for telemetry-only; 1 (which is faster) if you want to include images), and ratio of image packets to telemetry packets.
+
+		If you don't want LoRa transmissions, just don't call this function.
+
+		Note that the LoRa stream will only include image packets if you add a camera schedule (see add_rtty_camera_schedule)
+		"""
 		self.LoRaPayloadID = payload_id
 		self.LoRaChannel = channel
 		self.LoRaFrequency = frequency
 		self.LoRaMode = mode
 		self.LORAImagePacketsPerSentence = image_packet_ratio
 
-		self.lora = LoRa(self.LoRaChannel, self.LoRaFrequency, self.LoRaMode)
+		self.lora = LoRa(Channel=self.LoRaChannel, Frequency=self.LoRaFrequency, Mode=self.LoRaMode, DIO0=DIO0)
 
 	def add_rtty_camera_schedule(self, path='images/RTTY', period=60, width=320, height=240):
+		"""
+		Adds an RTTY camera schedule.  The default parameters are for an image of size 320x240 pixels every 60 seconds and the resulting file saved in the images/RTTY folder.
+		"""
 		if not self.camera:
 			self.camera = SSDVCamera()
 		if self.RTTYBaudRate >= 300:
@@ -92,6 +111,9 @@ class Tracker(object):
 			print("RTTY camera schedule not added - baud rate too low (300 minimum needed")
 
 	def add_lora_camera_schedule(self, path='images/LORA', period=60, width=640, height=480):
+		"""
+		Adds a LoRa camera schedule.  The default parameters are for an image of size 640x480 pixels every 60 seconds and the resulting file saved in the images/LORA folder.
+		"""
 		if not self.camera:
 			self.camera = SSDVCamera()
 		if self.LoRaMode == 1:
@@ -101,15 +123,23 @@ class Tracker(object):
 			print("LoRa camera schedule not added - LoRa mode needs to be set to 1 not 0")
 
 	def add_full_camera_schedule(self, path='images/FULL', period=60, width=0, height=0):
-		# 0,0 means "use full camera resolution"
+		"""
+		Adds a camera schedule for full-sized images.  The default parameters are for an image of full sensor resolution, every 60 seconds and the resulting file saved in the images/FULL folder.
+		"""
 		if not self.camera:
 			self.camera = SSDVCamera()
 		self.camera.add_schedule('FULL', '', path, period, width, height)
 
 	def set_sentence_callback(self, callback):
+		"""
+		This specifies a function to be called whenever a telemetry sentence is built.  That function should return a string containing a comma-separated list of fields to append to the telemetry sentence.
+		"""
 		self.SentenceCallback = callback
 
 	def set_image_callback(self, callback):
+		"""
+		The callback function is called whenever an image is required.  **If you specify this callback, then it's up to you to provide code to take the photograph (see tracker.md for an example)**.
+		"""
 		self.ImageCallback = callback
 
 	def __ImageCallback(self, filename, width, height):
@@ -124,6 +154,9 @@ class Tracker(object):
 			sleep(0.01)
 
 	def start(self):
+		"""
+		Starts the tracker.
+		"""
 		LEDs = PITS_LED()
 
 		self.temperature = Temperature()

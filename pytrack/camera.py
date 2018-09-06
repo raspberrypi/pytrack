@@ -97,9 +97,19 @@ class SSDVCamera(object):
 			time.sleep(1)
 
 	def clear_schedule(self):
+		"""Clears the schedule."""
 		self.Schedule = []
 		
 	def add_schedule(self, Channel, Callsign, TargetFolder, Period, Width, Height, VFlip=False, HFlip=False):
+		"""
+		Adds a schedule for a specific "channel", and normally you would set a schedule for each radio channel (RTTY and LoRa) and also one for full-sized images that are not transmitted.
+		- Channel is a unique name for this entry, and is used to retrieve/convert photographs later
+		- Callsign is used for radio channels, and should be the same as used by telemetry on that channel (it is embedded into SSDV packets)
+		- TargetFolder is where the JPG files should be saved.  It will be created if necessary.  Each channel should have its own target folder.
+		- Period is the time in seconds between photographs.  This should be much less than the time taken to transmit an image, so that there are several images to choose from when transmitting.  Depending on the combination of schedules, and how long each photograph takes, it may not always (or ever) be possible to maintain the specified periods for all channels.
+		- Width and Height are self-evident.  Take care not to create photographs that take a long time to send.  If Width or Height are zero then the full camera resolution (as determined by checking the camera model - Omnivision or Sony) is used.
+		- VFlip and HFlip can be used to correct images if the camera is not physically oriented correctly. 	
+		"""
 		TargetFolder = os.path.join(TargetFolder, '')	
 
 		if not os.path.exists(TargetFolder):
@@ -138,6 +148,15 @@ class SSDVCamera(object):
 		# print("schedule is: ", self.Schedule)
 
 	def take_photos(self, callback=None):
+		"""
+		Begins execution of the schedule, in a thread.  If the callback is specified, then this is called instead of taking a photo directly.  The callback is called with the following parameters:
+
+		filename - name of image file to create
+		width - desired image width in pixels (can be ignored)
+		height - desired image height in pixels (can be ignored)
+
+		The callback is expected to take a photograph, using whatever method it likes, and with whatever manipulation it likes, creating the file specified by 'filename'.		
+		"""
 		self.ImageCallback = callback
 		
 		t = threading.Thread(target=self.__photo_thread)
@@ -145,6 +164,11 @@ class SSDVCamera(object):
 		t.start()
 		
 	def get_next_ssdv_packet(self, Channel):
+		"""
+		Retrieves the next SSDV packet for a particular channel.
+		If there is no image available (i.e. no photograph has been taken and converted yet for this channel) then None is returned.
+		Returned packets contain a complete (256-byte) SSDV packet.
+		"""
 		Result = None
 		
 		item = self.__find_item_for_channel(Channel)

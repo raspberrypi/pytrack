@@ -1,3 +1,15 @@
+pytrack (0.3) stretch; urgency=medium
+
+  * Fixed imports in tracker.py
+
+ -- Serge Schneider <serge@raspberrypi.org>  Tue, 27 Mar 2018 14:58:00 +0100
+
+pytrack (0.2) stretch; urgency=medium
+
+  * Updated documentation
+
+ -- Serge Schneider <serge@raspberrypi.org>  Mon, 26 Mar 2018 08:59:26 +0100
+
 pytrack (0.1) stretch; urgency=medium
 
   * Initial Release.
