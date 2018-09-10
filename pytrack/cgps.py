@@ -205,59 +205,20 @@ class draginoGPS(object):
     PortOpen = False
     
     def __init__(self, when_new_position=None, when_lock_changed=None):
-        print("init")
+        print("init Dragino")
         self._WhenLockChanged = when_lock_changed
         self._WhenNewPosition = when_new_position
         self._GotLock = False
         self._GPSPosition = {'time': '00:00:00', 'lat': 0.0, 'lon': 0.0, 'alt': 0, 'sats': 0, 'fix': 0}
         self._GPSPositionObject = GPSPosition()
         self._datastream = serial.Serial("/dev/serial0",9600,timeout=0.5)
+        self._datastream.write(b"$PMTK314,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0*29\r\n")
         
         # Start thread to talk to GPS program
         t = threading.Thread(target=self.__gps_thread)
         t.daemon = True
         t.start()
-        
-#       def __process_gps(self, s):
-#           while 1:
-#               reply = s.recv(4096)                     
-#               if reply:
-#                   inputstring = reply.split(b'\n')
-#                   for line in inputstring:
-#                       if line:
-#                           temp = line.decode('utf-8')
-#                           j = json.loads(temp)
-#                           self._GPSPosition = j
-#                           if self._WhenNewPosition:
-#                               self._WhenNewPosition(self._GPSPosition)
-#                           GotLock = self._GPSPosition['fix'] >= 1
-#                           if GotLock != self._GotLock:
-#                               self._GotLock = GotLock
-#                               if self._WhenLockChanged:
-#                                   self._WhenLockChanged(GotLock)
-#               else:
-#                   sleep(1)
-#               
-#           s.close()
-#       
-#       def _ServerRunning(self):
-#           return "gps" in [psutil.Process(i).name() for i in psutil.pids()]
-#           
-#       def _StartServer(self):
-#           system("pytrack-gps > /dev/null &")
-#           sleep(1)
-#           
-#       def __doGPS(self, host, port):
-#           try:        
-#               # Connect socket to GPS server
-#               s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
-#               s.connect((host, port))                     
-#               self.__process_gps(s)
-#               s.close()
-#           except:
-#               # Start GPS server if it's not running
-#               if not self._ServerRunning():
-#                   self._StartServer()
+
     def checksum(self,sentence):
         """
         Takes a valid NMEA sentence as a parameter, the checksum is then striped and compared to the remainder of the sentence.
@@ -307,7 +268,6 @@ class draginoGPS(object):
 
     def parseGGA(self,ggaString):
         rawList = ggaString.split(",")
-#        print(rawList)
         time = rawList[1][0:2]+":"+rawList[1][2:4]+":"+rawList[1][4:6]
 
         if time != "::":
@@ -331,20 +291,10 @@ class draginoGPS(object):
             try:
                 nmeaSentence = byteSentence.decode("utf-8")
             except:
-                nmeaSentence = "Decode Error"
+                print("GPS Decode Error")
             if nmeaSentence[3:6] == "GGA":
                 if self.checksum(nmeaSentence):
                     self.parseGGA(nmeaSentence)
-
-
-
-
-
-        
-    #            if nmeaSentence[3:6] == "GGA":
-
-     #               if self.checksum(nmeaSentence):
-      #                  self._gpsData = self.parseGGA(nmeaSentence)
             sleep(0.2)
 
 
